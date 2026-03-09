@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "MBTI Sehir Testi - DopaBrain",
+    "description": "MBTI'ne hangi sehir uyuyor? 8 seyahat senaryosu sorusuyla dunyadan senin sehrini bul!"
+  },
+  "a11y": {
+    "skipToContent": "Icerige atla"
+  },
+  "loader": {
+    "loading": "Yukleniyor..."
+  },
+  "app": {
+    "title": "MBTI Sehir Testi",
+    "subtitle": "MBTI'ne uyan dunya sehri hangisi?",
+    "startDesc": "8 seyahat senaryosu sorusunu yanitla ve MBTI sehrini kesfet!",
+    "startBtn": "Teste Basla",
+    "questionLabel": "Soru",
+    "retryBtn": "Tekrar Dene"
+  },
+  "questions": {
+    "q1": {
+      "text": "Yeni bir sehre geldin. Nasil kesfe cikarsin?",
+      "options": {
+        "0": { "icon": "🗣️", "text": "Yerlilerle sohbet edip en iyi mekanlarini sorarim" },
+        "1": { "icon": "👫", "text": "Seyahat arkadaslarimla enerjik bir sekilde sokaklari gezerim" },
+        "2": { "icon": "🎧", "text": "Kulakligimi takar, tek basima yururum" },
+        "3": { "icon": "📖", "text": "Bir kafeye oturur, sehrin havasini yavas yavas hissederim" }
+      }
+    },
+    "q2": {
+      "text": "Ne tur bir mahalle seni cezbeder?",
+      "options": {
+        "0": { "icon": "🏛️", "text": "Tarihi binalar ve geleneksel pazarlar olan yer" },
+        "1": { "icon": "🍜", "text": "Yerel yemekler ve hayat dolu ara sokaklar" },
+        "2": { "icon": "🎨", "text": "Galeriler ve bagimsiz kitapcilarin oldugu sanat bolgesi" },
+        "3": { "icon": "🚀", "text": "Fututistik mimari ve yenilikci mekanlar" }
+      }
+    },
+    "q3": {
+      "text": "Bir yerli sana iki restoran oneriyor. Nasil secersin?",
+      "options": {
+        "0": { "icon": "⭐", "text": "Puani yuksek ve yorumlari guvenilir olani" },
+        "1": { "icon": "📊", "text": "Fiyat-performans orani en iyi ve verimli olani" },
+        "2": { "icon": "💕", "text": "Atmosferi daha guzel ve keyifli olani" },
+        "3": { "icon": "🤗", "text": "Onun gercekten sevdigi kisisel favorisi" }
+      }
+    },
+    "q4": {
+      "text": "Seyahat planlama tarzin ne?",
+      "options": {
+        "0": { "icon": "📋", "text": "Saat saat planlanmis eksiksiz program" },
+        "1": { "icon": "📍", "text": "Ana noktalar belirlenmis, gerisi esnek" },
+        "2": { "icon": "🎲", "text": "Genel yon belli, anlik karar veririm" },
+        "3": { "icon": "🌊", "text": "Plansizlik en iyi plan! Ruzgar nereye gotururse" }
+      }
+    },
+    "q5": {
+      "text": "Yeni bir sehirde mukemmel aksamin nasil olur?",
+      "options": {
+        "0": { "icon": "🎉", "text": "Yerel bir bara gidip yeni insanlarla tanismak" },
+        "1": { "icon": "🍽️", "text": "Yerli arkadaslarla birlikte aksam yemegi" },
+        "2": { "icon": "🌙", "text": "Catidan tek basina gece manzarasini seyretmek" },
+        "3": { "icon": "📝", "text": "Otelde sessizce seyahat gunlugu yazmak" }
+      }
+    },
+    "q6": {
+      "text": "Sokakta yururken ilk dikkatini ceken ne olur?",
+      "options": {
+        "0": { "icon": "🏗️", "text": "Binalarin mimari tarzi ve yapisi" },
+        "1": { "icon": "🛍️", "text": "Dukkan vitrinleri ve yerel urunler" },
+        "2": { "icon": "🌈", "text": "Gizli duvar resimleri ve sokak sanati" },
+        "3": { "icon": "✨", "text": "Sehrin genel enerjisi ve atmosferi" }
+      }
+    },
+    "q7": {
+      "text": "Sokak sanatcisinin zorlandikini gordun. Ne yaparsin?",
+      "options": {
+        "0": { "icon": "🧐", "text": "Performans kalitesini degerlendirdikten sonra bahsis veririm" },
+        "1": { "icon": "💡", "text": "Daha iyi bir yer veya yontem onerebilecegimi dusunurum" },
+        "2": { "icon": "💰", "text": "Cesaretlendirici bir gulumsemeyle bahsis birakirim" },
+        "3": { "icon": "👏", "text": "Durup ictenlikle performansini takdir ederim" }
+      }
+    },
+    "q8": {
+      "text": "Ucusun 6 saat rotalandi. Ne yaparsin?",
+      "options": {
+        "0": { "icon": "📅", "text": "Hemen alternatif ucus arar ve plani yeniden yaparim" },
+        "1": { "icon": "📞", "text": "Havayolu sirketi ile tazminat kurallarini kontrol ederim" },
+        "2": { "icon": "🏙️", "text": "Havalimananindan cikip yakin sehri kesfederim" },
+        "3": { "icon": "🎵", "text": "Lounge'da muzik dinleyerek rahatlarim, bos zamani degerlendiririm" }
+      }
+    }
+  },
+  "results": {
+    "INTJ": {
+      "name": "Tokyo",
+      "tagline": "Stratejik, verimli ve futuristik",
+      "description": "Tokyo gibi, disindan sakin gorunursun ama icinde titiz stratejiler saklisin. Shinkansen'in dakikligiyle her seyi planlar, Akihabara'nin inovasyonu gibi surekli yenilik pesinde kosarsin. Shibuya kavsakasi kadar karmasik durumlarda bile yolunu net bir sekilde bulursun."
+    },
+    "ENFP": {
+      "name": "Barselona (Barcelona)",
+      "tagline": "Renkli, yaratici ve spontane",
+      "description": "Barselona gibi, Gaudi'nin mimarisi kadar ozgunusun. La Rambla'nin enerjisiyle dolup tasan, plaj ile sehir cazibesini harmanlayan birisin. Her anin bir fiesta — Barselona senin sehrin."
+    },
+    "ISTJ": {
+      "name": "Londra (London)",
+      "tagline": "Geleneksel, guvenilir ve yapilandirilmis",
+      "description": "Londra gibi, sen dunyanin Big Ben'isin — dakik, guvenilir ve caglara meydan okuyan. Gelenege saygi duyarken saglam basarilar insa edersin. Kralice'nin muhafizi gibi sessizce gorevinde durursun — her zaman orada, her zaman zamaninda."
+    },
+    "INFP": {
+      "name": "Paris",
+      "tagline": "Romantik, sanatsal ve hayalperest",
+      "description": "Paris gibi, ruhunda Sen Nehri'nin nazik dalgalanmalari var. Montmartre'in sanatcilari gibi kendi dunyani cizersin ve Eyfel Kulesi'nin aksam goruntusu gibi sessiz ama unutulmaz bir iz birakirsin. Ruh sehrin eski kitapcilarin kokusunu ve fisilti halinde ilhami tasir."
+    },
+    "ENTP": {
+      "name": "New York",
+      "tagline": "Yenilikci, hizli ve tartismayi seven",
+      "description": "New York gibi, hic uyumayan bir enerjisin. Wall Street'in hizi ve Broadway'in yaraticiligiyla her zorluyu firsata cevirirsin. Times Square neonu gibi her zaman yeni fikirlerle parlarsin — daima parlak, daima onde."
+    },
+    "ISFJ": {
+      "name": "Kopenhag (Copenhagen)",
+      "tagline": "Sicak, ilgili ve topluluk odakli",
+      "description": "Kopenhag gibi, Hygge'nin sicakligini tasirsin. Nyhavn'in renkli evleri gibi cevreni aydinlatir, bisiklet sehrinin huzuruyla herkesi gozetirsin. Yaninda olmak dunyanin en mutlu sehrinde olmak gibi — sakin, sicak ve guvenli."
+    },
+    "ENTJ": {
+      "name": "Singapur (Singapore)",
+      "tagline": "Hirsli, organizeli ve guclu",
+      "description": "Singapur gibi, kucuk ama guclusun. Marina Bay Sands gibi yuksek hedefler koyar, Changi Havalimani'nin verimliligiyle kusursuz uygularsin. Gardens by the Bay gibi vizyonu pratiklikle birlestiren dogal bir lidersin."
+    },
+    "INFJ": {
+      "name": "Kyoto",
+      "tagline": "Ruhani, derin ve uyumlu",
+      "description": "Kyoto gibi, huzurlu dis gorunumunun altinda derin bir bilgelik saklisin. Ic isigin Kinkaku-ji'nin altin yansimasi gibi yumusak parlar ve icegorulerin Zen kaya bahcesinin sessizligi kadar derindir. Bambu korulugundaki ruzgar gibi — sessiz ama kalplere dokunan."
+    },
+    "ESTP": {
+      "name": "Dubai",
+      "tagline": "Cesur, aksiyon dolu ve luks",
+      "description": "Dubai gibi, imkansizi mumkun kilarsin. Burj Khalifa'nin korkusuz hirsi ve col uzerine sehir kurma cesareti — bu sensin. Parasutculukten safariye kadar, hayati tam gaz yasayan bir aksiyon kahramanisin: cesur, hizli ve unutulmaz."
+    },
+    "ISFP": {
+      "name": "Floransa (Florence)",
+      "tagline": "Sanatsal, duyusal ve guzel",
+      "description": "Floransa gibi, ruhunda Ronesans'in guzelligini tasirsin. Uffizi'nin saheserleri gibi hassas bir duyarliliga sahipsin ve Toskana gun batiminin sessiz gucu gibi insanlari etkilersin. Michelangelo'nun Davud'u gibi, dunyayi kendi estetik lensinle goren bir sanatcisin."
+    },
+    "ESTJ": {
+      "name": "Berlin",
+      "tagline": "Pratik, dogrudan ve dogal lider",
+      "description": "Berlin gibi, tarihten yukselip yeni seyler insa edersin. Varligin Brandenburg Kapisi kadar belirgin, cozumlerin Alman muhendisligi kadar pratik. Duvarlari yikar, engelleri asarsin — Berlin gibi guclu bir lider."
+    },
+    "INTP": {
+      "name": "Reykjavik",
+      "tagline": "Entelektuel, benzersiz ve yalnizligi seven",
+      "description": "Reykjavik gibi, gercekten essizisin. Dusuncen Kuzey Isiklari kadar ongoulemez, fikirlerin gayzer gibi aniden ve gorkemli bir sekilde fiskirir. Volkanik bir adanin sessiz manzaralarinda, baskalarin kacirdigi cevaplari bulursun — yalnizligin dustunuru."
+    },
+    "ESFP": {
+      "name": "Rio de Janeiro",
+      "tagline": "Parti sever, canli ve nese dolu",
+      "description": "Rio gibi, damarlarinda karnaval enerjisi akar. Copacabana gunesi gibi parlak ve sicak, samba ritmiyle her ortama renk katarsin. Corcovado'daki Kurtarici Isa gibi kollarin herkese acik — cunku senin icin hayat en buyuk kutlama."
+    },
+    "ISTP": {
+      "name": "Oslo",
+      "tagline": "Minimalist, bagimsiz ve islevsel",
+      "description": "Oslo gibi, gereksizi atar ve oze odaklanirsin. Norvec'in bozulmamis fiyortlari gibi saf verimlilik pesinde kosar, Iskandinav tasarimi gibi sade ama mukemmel islevsellik tasirsin. Tek basina mukemmel calisir, sessizce kendi yolunda yurursin — ozguvenli ve guclu."
+    },
+    "ESFJ": {
+      "name": "Seul (Seoul)",
+      "tagline": "Sosyal, sicak ve trend",
+      "description": "Seul gibi, gelenegi ve trendi zahmetsizce harmanlarsun. Han Nehri'nin genis kiylari gibi herkesi kucaklar, Hongdae'nin yaratici enerjisi gibi hep yeniyi yakalarsin. Bukchon'un sicakligi ve Gangnam'in sikligi — seninle her bulusma parlak gecer."
+    },
+    "ENFJ": {
+      "name": "Amsterdam",
+      "tagline": "Kapsayici, ilerici ve tutkulu",
+      "description": "Amsterdam gibi, cesitliligi tum bicimleriyle kutlarsin. Sehrin kanallari gibi her seyi birbirine baglar, lale festivali gibi dunyayi guzellesirsin. Anne Frank'in Evi'nin derin empatisiyle, herkesin ozgun benligi olmasina onculuk edersin — sicak, tutkulu ve ilham verici."
+    }
+  },
+  "traits": {
+    "strategic": "Stratejik",
+    "efficient": "Verimli",
+    "futuristic": "Futuristik",
+    "colorful": "Renkli",
+    "creative": "Yaratici",
+    "spontaneous": "Spontane",
+    "traditional": "Geleneksel",
+    "reliable": "Guvenilir",
+    "structured": "Yapilandirilmis",
+    "romantic": "Romantik",
+    "artistic": "Sanatsal",
+    "dreamy": "Hayalperest",
+    "innovative": "Yenilikci",
+    "fastPaced": "Hizli",
+    "debateLover": "Tartismaci",
+    "cozy": "Sicak",
+    "caring": "Ilgili",
+    "community": "Topluluk",
+    "ambitious": "Hirsli",
+    "organized": "Organizeli",
+    "powerful": "Guclu",
+    "spiritual": "Ruhani",
+    "deep": "Derin",
+    "harmonious": "Uyumlu",
+    "bold": "Cesur",
+    "action": "Aksiyon",
+    "luxury": "Luks",
+    "sensory": "Duyusal",
+    "beautiful": "Guzel",
+    "practical": "Pratik",
+    "direct": "Dogrudan",
+    "leader": "Lider",
+    "intellectual": "Entelektuel",
+    "unique": "Benzersiz",
+    "solitary": "Yalniz",
+    "party": "Parti",
+    "vibrant": "Canli",
+    "joyful": "Nese Dolu",
+    "minimal": "Minimalist",
+    "independent": "Bagimsiz",
+    "functional": "Islevsel",
+    "social": "Sosyal",
+    "warm": "Sicakkanli",
+    "trendy": "Trend",
+    "inclusive": "Kapsayici",
+    "progressive": "Ilerici",
+    "passionate": "Tutkulu"
+  },
+  "share": {
+    "title": "Sonuclarini Paylas",
+    "copyLink": "Linki Kopyala",
+    "copied": "Kopyalandi!",
+    "text": "Benim MBTI sehrim {city} ({mbti})!",
+    "cta": "Sen de bul!"
+  }
+}

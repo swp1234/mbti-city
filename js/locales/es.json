@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Test MBTI de Ciudades - DopaBrain",
+    "description": "Cual ciudad coincide con tu MBTI? 8 preguntas de viaje revelan tu ciudad perfecta en el mundo!"
+  },
+  "a11y": {
+    "skipToContent": "Ir al contenido"
+  },
+  "loader": {
+    "loading": "Cargando..."
+  },
+  "app": {
+    "title": "Test MBTI de Ciudades",
+    "subtitle": "Cual ciudad del mundo coincide con tu MBTI?",
+    "startDesc": "Responde 8 preguntas sobre viajes y descubre tu ciudad MBTI!",
+    "startBtn": "Empezar Test",
+    "questionLabel": "Pregunta",
+    "retryBtn": "Intentar de nuevo"
+  },
+  "questions": {
+    "q1": {
+      "text": "Acabas de llegar a una ciudad nueva. Como la exploras?",
+      "options": {
+        "0": { "icon": "🗣️", "text": "Hablo con los locales y les pido recomendaciones" },
+        "1": { "icon": "👫", "text": "Salgo con mis companeros de viaje lleno de energia" },
+        "2": { "icon": "🎧", "text": "Me pongo auriculares y camino solo/a" },
+        "3": { "icon": "📖", "text": "Me siento en un cafe y absorbo la atmosfera" }
+      }
+    },
+    "q2": {
+      "text": "Que tipo de barrio te atrae?",
+      "options": {
+        "0": { "icon": "🏛️", "text": "Edificios historicos y mercados tradicionales" },
+        "1": { "icon": "🍜", "text": "Callejones con comida local y vida de barrio" },
+        "2": { "icon": "🎨", "text": "Distritos de arte con galerias y librerias independientes" },
+        "3": { "icon": "🚀", "text": "Arquitectura futurista y espacios innovadores" }
+      }
+    },
+    "q3": {
+      "text": "Un local te recomienda dos restaurantes. Como eliges?",
+      "options": {
+        "0": { "icon": "⭐", "text": "El que tenga mejores puntuaciones y resenas verificadas" },
+        "1": { "icon": "📊", "text": "La mejor relacion calidad-precio y servicio eficiente" },
+        "2": { "icon": "💕", "text": "El que tenga mejor ambiente y vibracion" },
+        "3": { "icon": "🤗", "text": "Su favorito personal, el que de verdad ama" }
+      }
+    },
+    "q4": {
+      "text": "Cual es tu estilo de planificacion de viajes?",
+      "options": {
+        "0": { "icon": "📋", "text": "Itinerario completo con horarios, todo organizado" },
+        "1": { "icon": "📍", "text": "Puntos clave marcados, lo demas flexible" },
+        "2": { "icon": "🎲", "text": "Direccion general, decido sobre la marcha" },
+        "3": { "icon": "🌊", "text": "Sin plan es el mejor plan! Voy donde me lleve el viento" }
+      }
+    },
+    "q5": {
+      "text": "Tu noche perfecta en una ciudad nueva?",
+      "options": {
+        "0": { "icon": "🎉", "text": "Ir a un bar local y conocer gente nueva" },
+        "1": { "icon": "🍽️", "text": "Cenar con amigos locales" },
+        "2": { "icon": "🌙", "text": "Ver el horizonte nocturno a solas desde una azotea" },
+        "3": { "icon": "📝", "text": "Escribir mi diario de viaje tranquilamente en el hotel" }
+      }
+    },
+    "q6": {
+      "text": "Caminando por la calle, que te llama la atencion primero?",
+      "options": {
+        "0": { "icon": "🏗️", "text": "El estilo arquitectonico y la estructura de los edificios" },
+        "1": { "icon": "🛍️", "text": "Los escaparates y productos locales" },
+        "2": { "icon": "🌈", "text": "Murales escondidos y arte callejero" },
+        "3": { "icon": "✨", "text": "La energia y atmosfera general de la ciudad" }
+      }
+    },
+    "q7": {
+      "text": "Ves a un artista callejero pasandola mal. Que haces?",
+      "options": {
+        "0": { "icon": "🧐", "text": "Evaluo la calidad y luego decido si doy propina" },
+        "1": { "icon": "💡", "text": "Pienso en sugerirle un mejor lugar o enfoque" },
+        "2": { "icon": "💰", "text": "Dejo propina con una sonrisa de animo" },
+        "3": { "icon": "👏", "text": "Me detengo y disfruto genuinamente su esfuerzo" }
+      }
+    },
+    "q8": {
+      "text": "Tu vuelo se retrasa 6 horas. Que haces?",
+      "options": {
+        "0": { "icon": "📅", "text": "Busco vuelos alternativos y reorganizo el itinerario" },
+        "1": { "icon": "📞", "text": "Contacto a la aerolinea por las politicas de compensacion" },
+        "2": { "icon": "🏙️", "text": "Salgo del aeropuerto y exploro la ciudad cercana" },
+        "3": { "icon": "🎵", "text": "Me relajo en la sala VIP con musica y disfruto la pausa" }
+      }
+    }
+  },
+  "results": {
+    "INTJ": {
+      "name": "Tokio (Tokyo)",
+      "tagline": "Estrategico, eficiente y futurista",
+      "description": "Como Tokio, pareces tranquilo por fuera pero ocultas estrategias meticulosas. Con la precision del Shinkansen y la innovacion de Akihabara, navegas situaciones complejas como el cruce de Shibuya con claridad absoluta. Tokio es donde tu mente estrategica se siente como en casa."
+    },
+    "ENFP": {
+      "name": "Barcelona",
+      "tagline": "Colorida, creativa y espontanea",
+      "description": "Como Barcelona, eres tan original como la arquitectura de Gaudi. Rebosante de la energia de La Rambla y mezclando playa con encanto urbano, llevas un caleidoscopio de pasiones a donde vayas. Cada momento es una fiesta contigo — Barcelona es tu ciudad."
+    },
+    "ISTJ": {
+      "name": "Londres (London)",
+      "tagline": "Tradicional, confiable y estructurado",
+      "description": "Como Londres, eres el Big Ben de tu mundo — preciso, confiable y en pie a traves de los siglos. Honras la tradicion mientras construyes logros solidos. Como un guardia real, mantienes tu puesto en silencio — siempre presente, siempre puntual."
+    },
+    "INFP": {
+      "name": "Paris",
+      "tagline": "Romantico, artistico y sonador",
+      "description": "Como Paris, llevas en el alma las suaves ondas del Sena. Pintas tu propio mundo como los artistas de Montmartre y dejas una impresion silenciosa pero inolvidable como la Torre Eiffel al atardecer. Tu ciudad del alma huele a librerias antiguas e inspiracion susurrada."
+    },
+    "ENTP": {
+      "name": "Nueva York (New York)",
+      "tagline": "Innovador, rapido y amante del debate",
+      "description": "Como Nueva York, eres la ciudad que nunca duerme. Con la velocidad de Wall Street y la creatividad de Broadway, conviertes cada desafio en oportunidad. Brillas con ideas nuevas como el neon de Times Square — siempre luminoso, siempre por delante."
+    },
+    "ISFJ": {
+      "name": "Copenhague (Copenhagen)",
+      "tagline": "Acogedor, atento y comunitario",
+      "description": "Como Copenhague, encarnas la calidez del Hygge. Iluminas tu entorno como las coloridas casas de Nyhavn y cuidas de todos con la suavidad de una ciudad ciclista. Estar cerca de ti es como vivir en la ciudad mas feliz del mundo — calma, calida y segura."
+    },
+    "ENTJ": {
+      "name": "Singapur (Singapore)",
+      "tagline": "Ambicioso, organizado y poderoso",
+      "description": "Como Singapur, eres pequeno pero poderoso. Estableces metas altisimas como Marina Bay Sands y ejecutas con la eficiencia impecable del aeropuerto Changi. Como Gardens by the Bay, fusionas vision con practicidad — un lider nato."
+    },
+    "INFJ": {
+      "name": "Kioto (Kyoto)",
+      "tagline": "Espiritual, profundo y armonioso",
+      "description": "Como Kioto, guardas una profunda sabiduria bajo una fachada serena. Tu luz interior brilla suavemente como el reflejo dorado de Kinkaku-ji, y tu percepcion es tan profunda como el silencio de un jardin zen. Como el viento entre los bambus — silencioso pero toca corazones."
+    },
+    "ESTP": {
+      "name": "Dubai",
+      "tagline": "Audaz, lleno de accion y lujoso",
+      "description": "Como Dubai, conviertes lo imposible en realidad. Con la ambicion intrépida del Burj Khalifa y la audacia de construir una ciudad sobre arena, vives a toda velocidad. Del paracaidismo al safari — eres la accion personificada: audaz, rapido e inolvidable."
+    },
+    "ISFP": {
+      "name": "Florencia (Florence)",
+      "tagline": "Artistico, sensorial y hermoso",
+      "description": "Como Florencia, llevas la belleza del Renacimiento en el alma. Observas el mundo con la sensibilidad de una obra maestra de los Uffizi y conmueves con la quietud de un atardecer toscano. Como el David de Miguel Angel, ves el mundo a traves de tu propia lente estetica perfecta."
+    },
+    "ESTJ": {
+      "name": "Berlin",
+      "tagline": "Practico, directo y lider nato",
+      "description": "Como Berlin, te levantas de la historia para construir algo nuevo. Tu presencia es tan inconfundible como la Puerta de Brandenburgo y tus soluciones tan practicas como la ingenieria alemana. Derribas muros y superas obstaculos — un lider fuerte, como Berlin."
+    },
+    "INTP": {
+      "name": "Reikiavik (Reykjavik)",
+      "tagline": "Intelectual, unico y solitario",
+      "description": "Como Reikiavik, eres verdaderamente unico. Tu pensamiento es tan impredecible como la aurora boreal y tus ideas erupcionan como géiseres. En los paisajes silenciosos de una isla volcanica, encuentras las respuestas que otros pasan por alto — un pensador en soledad."
+    },
+    "ESFP": {
+      "name": "Rio de Janeiro",
+      "tagline": "Fiestero, vibrante y alegre",
+      "description": "Como Rio, llevas la energia del Carnaval en las venas. Brillante y calido como el sol de Copacabana, iluminas cada espacio con ritmo de samba. Como el Cristo Redentor en Corcovado, tus brazos estan abiertos a todos — porque para ti, la vida es la maxima celebracion."
+    },
+    "ISTP": {
+      "name": "Oslo",
+      "tagline": "Minimalista, independiente y funcional",
+      "description": "Como Oslo, eliminas lo innecesario y te concentras en lo que importa. Persigues la eficiencia pura como los fiordos pristinos de Noruega y encarnas la funcionalidad perfecta del diseno escandinavo. Funcionas perfectamente solo, caminando tu propio camino — autosuficiente y fuerte."
+    },
+    "ESFJ": {
+      "name": "Seul (Seoul)",
+      "tagline": "Social, calido y moderno",
+      "description": "Como Seul, fusionas tradicion y tendencia con estilo natural. Abrazas a todos como las amplias riberas del Han y siempre detectas lo nuevo como la energia creativa de Hongdae. Con la calidez de Bukchon y el brillo de Gangnam, haces que cada reunion brille."
+    },
+    "ENFJ": {
+      "name": "Amsterdam",
+      "tagline": "Inclusivo, progresista y apasionado",
+      "description": "Como Amsterdam, celebras la diversidad en todas sus formas. Conectas todo como los canales de la ciudad y haces el mundo mas bello como un festival de tulipanes. Con la empatia profunda de la Casa de Ana Frank, guias a otros a ser su verdadero yo — calido, apasionado e inspirador."
+    }
+  },
+  "traits": {
+    "strategic": "Estrategico",
+    "efficient": "Eficiente",
+    "futuristic": "Futurista",
+    "colorful": "Colorido",
+    "creative": "Creativo",
+    "spontaneous": "Espontaneo",
+    "traditional": "Tradicional",
+    "reliable": "Confiable",
+    "structured": "Estructurado",
+    "romantic": "Romantico",
+    "artistic": "Artistico",
+    "dreamy": "Sonador",
+    "innovative": "Innovador",
+    "fastPaced": "Rapido",
+    "debateLover": "Debatidor",
+    "cozy": "Acogedor",
+    "caring": "Atento",
+    "community": "Comunitario",
+    "ambitious": "Ambicioso",
+    "organized": "Organizado",
+    "powerful": "Poderoso",
+    "spiritual": "Espiritual",
+    "deep": "Profundo",
+    "harmonious": "Armonioso",
+    "bold": "Audaz",
+    "action": "Accion",
+    "luxury": "Lujo",
+    "sensory": "Sensorial",
+    "beautiful": "Hermoso",
+    "practical": "Practico",
+    "direct": "Directo",
+    "leader": "Lider",
+    "intellectual": "Intelectual",
+    "unique": "Unico",
+    "solitary": "Solitario",
+    "party": "Fiesta",
+    "vibrant": "Vibrante",
+    "joyful": "Alegre",
+    "minimal": "Minimalista",
+    "independent": "Independiente",
+    "functional": "Funcional",
+    "social": "Social",
+    "warm": "Calido",
+    "trendy": "Moderno",
+    "inclusive": "Inclusivo",
+    "progressive": "Progresista",
+    "passionate": "Apasionado"
+  },
+  "share": {
+    "title": "Comparte tus resultados",
+    "copyLink": "Copiar enlace",
+    "copied": "Copiado!",
+    "text": "Mi ciudad MBTI es {city} ({mbti})!",
+    "cta": "Descubre la tuya!"
+  }
+}

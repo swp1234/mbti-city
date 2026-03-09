@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "title": "Tes MBTI Kota - DopaBrain",
+    "description": "Kota mana yang cocok dengan MBTI-mu? 8 pertanyaan skenario perjalanan mengungkap kota impianmu!"
+  },
+  "a11y": {
+    "skipToContent": "Langsung ke konten"
+  },
+  "loader": {
+    "loading": "Memuat..."
+  },
+  "app": {
+    "title": "Tes MBTI Kota",
+    "subtitle": "Kota dunia mana yang cocok dengan MBTI-mu?",
+    "startDesc": "Jawab 8 pertanyaan skenario perjalanan dan temukan kota MBTI-mu!",
+    "startBtn": "Mulai Tes",
+    "questionLabel": "Pertanyaan",
+    "retryBtn": "Coba Lagi"
+  },
+  "questions": {
+    "q1": {
+      "text": "Kamu baru tiba di kota baru. Bagaimana cara menjelajahnya?",
+      "options": {
+        "0": { "icon": "🗣️", "text": "Ngobrol dengan warga lokal dan minta rekomendasi" },
+        "1": { "icon": "👫", "text": "Jalan bareng teman perjalanan dengan penuh semangat" },
+        "2": { "icon": "🎧", "text": "Pakai headphone dan jalan-jalan sendirian" },
+        "3": { "icon": "📖", "text": "Duduk di kafe dan pelan-pelan meresapi suasana kota" }
+      }
+    },
+    "q2": {
+      "text": "Lingkungan seperti apa yang menarik perhatianmu?",
+      "options": {
+        "0": { "icon": "🏛️", "text": "Bangunan bersejarah dan pasar tradisional" },
+        "1": { "icon": "🍜", "text": "Gang-gang dengan makanan lokal dan kehidupan sehari-hari" },
+        "2": { "icon": "🎨", "text": "Distrik seni dengan galeri dan toko buku indie" },
+        "3": { "icon": "🚀", "text": "Arsitektur futuristik dan ruang inovatif" }
+      }
+    },
+    "q3": {
+      "text": "Warga lokal merekomendasikan dua restoran. Bagaimana kamu memilih?",
+      "options": {
+        "0": { "icon": "⭐", "text": "Yang ratingnya tinggi dan ulasannya terpercaya" },
+        "1": { "icon": "📊", "text": "Yang paling worth it dan pelayanannya efisien" },
+        "2": { "icon": "💕", "text": "Yang suasananya lebih enak dan nyaman" },
+        "3": { "icon": "🤗", "text": "Favorit pribadinya, yang benar-benar dia sukai" }
+      }
+    },
+    "q4": {
+      "text": "Gaya perencanaan perjalananmu?",
+      "options": {
+        "0": { "icon": "📋", "text": "Itinerari lengkap dengan jadwal waktu, semuanya terencana" },
+        "1": { "icon": "📍", "text": "Tempat utama sudah ditandai, sisanya fleksibel" },
+        "2": { "icon": "🎲", "text": "Arah umum saja, putuskan di tempat" },
+        "3": { "icon": "🌊", "text": "Tanpa rencana adalah rencana terbaik! Ikut arus saja" }
+      }
+    },
+    "q5": {
+      "text": "Malam sempurna di kota baru?",
+      "options": {
+        "0": { "icon": "🎉", "text": "Datang ke bar lokal dan kenalan dengan orang baru" },
+        "1": { "icon": "🍽️", "text": "Makan malam bareng teman-teman lokal" },
+        "2": { "icon": "🌙", "text": "Menikmati pemandangan malam sendirian dari atap gedung" },
+        "3": { "icon": "📝", "text": "Menulis jurnal perjalanan dengan tenang di hotel" }
+      }
+    },
+    "q6": {
+      "text": "Jalan-jalan di trotoar, apa yang pertama kali menarik perhatianmu?",
+      "options": {
+        "0": { "icon": "🏗️", "text": "Gaya arsitektur dan struktur bangunan" },
+        "1": { "icon": "🛍️", "text": "Etalase toko dan produk-produk lokal" },
+        "2": { "icon": "🌈", "text": "Mural tersembunyi dan seni jalanan" },
+        "3": { "icon": "✨", "text": "Energi dan atmosfer kota secara keseluruhan" }
+      }
+    },
+    "q7": {
+      "text": "Kamu melihat pengamen jalanan yang sedang kesulitan. Apa yang kamu lakukan?",
+      "options": {
+        "0": { "icon": "🧐", "text": "Nilai kualitas penampilannya dulu, baru putuskan soal tip" },
+        "1": { "icon": "💡", "text": "Berpikir untuk menyarankan lokasi atau pendekatan yang lebih baik" },
+        "2": { "icon": "💰", "text": "Kasih tip dengan senyuman penyemangat" },
+        "3": { "icon": "👏", "text": "Berhenti dan tulus menghargai usahanya" }
+      }
+    },
+    "q8": {
+      "text": "Penerbanganmu ditunda 6 jam. Apa yang kamu lakukan?",
+      "options": {
+        "0": { "icon": "📅", "text": "Langsung cari penerbangan alternatif dan atur ulang jadwal" },
+        "1": { "icon": "📞", "text": "Hubungi maskapai soal kebijakan kompensasi" },
+        "2": { "icon": "🏙️", "text": "Keluar bandara dan jelajahi kota terdekat" },
+        "3": { "icon": "🎵", "text": "Santai di lounge sambil dengar musik, nikmati waktu luang" }
+      }
+    }
+  },
+  "results": {
+    "INTJ": {
+      "name": "Tokyo",
+      "tagline": "Strategis, efisien, dan futuristik",
+      "description": "Seperti Tokyo, kamu terlihat tenang di luar tapi menyimpan strategi cermat di dalam. Dengan presisi jadwal Shinkansen dan inovasi tiada henti ala Akihabara, kamu menavigasi situasi sekompleks persimpangan Shibuya dengan kejernihan penuh. Tokyo adalah rumah bagi pikiranmu yang strategis."
+    },
+    "ENFP": {
+      "name": "Barcelona",
+      "tagline": "Penuh warna, kreatif, dan spontan",
+      "description": "Seperti Barcelona, kamu seorisinal arsitektur Gaudi. Meluap dengan energi La Rambla dan memadukan vibes pantai dengan pesona urban, kamu membawa kaleidoskop gairah ke mana pun. Setiap momen adalah fiesta bersamamu — Barcelona adalah kotamu."
+    },
+    "ISTJ": {
+      "name": "London",
+      "tagline": "Tradisional, andal, dan terstruktur",
+      "description": "Seperti London, kamu adalah Big Ben duniamu — presisi, andal, dan berdiri kokoh sepanjang zaman. Menghormati tradisi sambil membangun pencapaian solid. Seperti penjaga kerajaan, kamu menjaga posmu dalam diam — selalu hadir, selalu tepat waktu."
+    },
+    "INFP": {
+      "name": "Paris",
+      "tagline": "Romantis, artistik, dan penuh mimpi",
+      "description": "Seperti Paris, kamu membawa riak lembut Sungai Seine dalam jiwamu. Melukis duniamu sendiri seperti seniman Montmartre, dan meninggalkan kesan tenang tapi tak terlupakan seperti Menara Eiffel saat senja. Kota jiwamu berbau toko buku tua dan bisikan inspirasi."
+    },
+    "ENTP": {
+      "name": "New York",
+      "tagline": "Inovatif, serba cepat, dan suka berdebat",
+      "description": "Seperti New York, kamu adalah kota yang tak pernah tidur. Dengan kecepatan Wall Street dan kreativitas Broadway, kamu mengubah setiap tantangan jadi peluang. Bersinar dengan ide-ide baru seperti neon Times Square — selalu terang, selalu terdepan."
+    },
+    "ISFJ": {
+      "name": "Kopenhagen (Copenhagen)",
+      "tagline": "Nyaman, penuh perhatian, dan berorientasi komunitas",
+      "description": "Seperti Kopenhagen, kamu mewujudkan kehangatan Hygge. Menerangi sekitarmu seperti rumah-rumah berwarna di Nyhavn dan merawat semua orang dengan kelembutan kota sepeda. Berada di dekatmu terasa seperti di kota paling bahagia di dunia — tenang, hangat, dan aman."
+    },
+    "ENTJ": {
+      "name": "Singapura (Singapore)",
+      "tagline": "Ambisius, terorganisir, dan kuat",
+      "description": "Seperti Singapura, kamu kecil tapi perkasa. Menetapkan target setinggi Marina Bay Sands dan mengeksekusi dengan efisiensi sempurna Bandara Changi. Seperti Gardens by the Bay, kamu memadukan visi dengan kepraktisan — pemimpin sejati."
+    },
+    "INFJ": {
+      "name": "Kyoto",
+      "tagline": "Spiritual, mendalam, dan harmonis",
+      "description": "Seperti Kyoto, kamu menyimpan kebijaksanaan mendalam di balik penampilan tenang. Cahaya batinmu bersinar lembut seperti pantulan emas Kinkaku-ji, dan wawasanmu sedalam keheningan taman batu Zen. Seperti angin di hutan bambu — sunyi tapi menyentuh hati."
+    },
+    "ESTP": {
+      "name": "Dubai",
+      "tagline": "Berani, penuh aksi, dan mewah",
+      "description": "Seperti Dubai, kamu mengubah yang mustahil jadi nyata. Dengan ambisi tanpa takut ala Burj Khalifa dan keberanian membangun kota di atas pasir, kamu menjalani hidup dengan kecepatan penuh. Dari skydiving sampai safari — kamu adalah aksi murni: berani, cepat, dan tak terlupakan."
+    },
+    "ISFP": {
+      "name": "Firenze (Florence)",
+      "tagline": "Artistik, sensoris, dan indah",
+      "description": "Seperti Firenze, kamu membawa keindahan Renaissance dalam jiwamu. Mengamati dunia dengan kepekaan mahakarya Uffizi dan menggerakkan hati dengan ketenangan sunset Toskana. Seperti David karya Michelangelo, kamu melihat dunia melalui lensa estetikamu sendiri."
+    },
+    "ESTJ": {
+      "name": "Berlin",
+      "tagline": "Praktis, lugas, dan pemimpin sejati",
+      "description": "Seperti Berlin, kamu bangkit dari sejarah dan membangun sesuatu yang baru. Kehadiranmu setegas Gerbang Brandenburg, dan solusimu sepraktis rekayasa Jerman. Kamu meruntuhkan tembok dan mengatasi hambatan — pemimpin kuat, seperti Berlin sendiri."
+    },
+    "INTP": {
+      "name": "Reykjavik",
+      "tagline": "Intelektual, unik, dan penyendiri",
+      "description": "Seperti Reykjavik, kamu benar-benar satu-satunya. Pikiranmu tak terduga seperti aurora borealis, dan idemu menyembur seperti geyser. Dalam keheningan lanskap pulau vulkanik, kamu menemukan jawaban yang terlewat orang lain — pemikir dalam kesendirian."
+    },
+    "ESFP": {
+      "name": "Rio de Janeiro",
+      "tagline": "Suka pesta, penuh semangat, dan riang",
+      "description": "Seperti Rio, energi karnaval mengalir di nadimu. Cerah dan hangat seperti matahari Copacabana, kamu menerangi setiap ruangan dengan energi ritme samba. Seperti Kristus Penebus di Corcovado, tanganmu terbuka untuk semua — karena bagimu, hidup adalah perayaan terbesar."
+    },
+    "ISTP": {
+      "name": "Oslo",
+      "tagline": "Minimalis, mandiri, dan fungsional",
+      "description": "Seperti Oslo, kamu menyingkirkan yang tidak perlu dan fokus pada yang penting. Mengejar efisiensi murni seperti fjord Norwegia yang jernih dan mewujudkan fungsionalitas sempurna desain Skandinavia. Bekerja sempurna sendiri, diam-diam berjalan di jalanmu — mandiri dan kuat."
+    },
+    "ESFJ": {
+      "name": "Seoul",
+      "tagline": "Sosial, hangat, dan trendi",
+      "description": "Seperti Seoul, kamu memadukan tradisi dan tren dengan gaya alami. Merangkul semua orang seperti tepian luas Sungai Han dan selalu tahu yang baru seperti energi kreatif Hongdae. Dengan kehangatan Bukchon dan kilau Gangnam, kamu membuat setiap pertemuan bersinar."
+    },
+    "ENFJ": {
+      "name": "Amsterdam",
+      "tagline": "Inklusif, progresif, dan penuh gairah",
+      "description": "Seperti Amsterdam, kamu merayakan keberagaman dalam segala bentuk. Menghubungkan segalanya seperti kanal kota dan mempercantik dunia seperti festival tulip yang bermekaran. Dengan empati mendalam ala Rumah Anne Frank, kamu memimpin orang lain menjadi diri mereka yang sebenarnya — hangat, penuh gairah, dan menginspirasi."
+    }
+  },
+  "traits": {
+    "strategic": "Strategis",
+    "efficient": "Efisien",
+    "futuristic": "Futuristik",
+    "colorful": "Penuh Warna",
+    "creative": "Kreatif",
+    "spontaneous": "Spontan",
+    "traditional": "Tradisional",
+    "reliable": "Andal",
+    "structured": "Terstruktur",
+    "romantic": "Romantis",
+    "artistic": "Artistik",
+    "dreamy": "Penuh Mimpi",
+    "innovative": "Inovatif",
+    "fastPaced": "Serba Cepat",
+    "debateLover": "Suka Debat",
+    "cozy": "Nyaman",
+    "caring": "Perhatian",
+    "community": "Komunitas",
+    "ambitious": "Ambisius",
+    "organized": "Terorganisir",
+    "powerful": "Kuat",
+    "spiritual": "Spiritual",
+    "deep": "Mendalam",
+    "harmonious": "Harmonis",
+    "bold": "Berani",
+    "action": "Aksi",
+    "luxury": "Mewah",
+    "sensory": "Sensoris",
+    "beautiful": "Indah",
+    "practical": "Praktis",
+    "direct": "Lugas",
+    "leader": "Pemimpin",
+    "intellectual": "Intelektual",
+    "unique": "Unik",
+    "solitary": "Penyendiri",
+    "party": "Pesta",
+    "vibrant": "Semangat",
+    "joyful": "Riang",
+    "minimal": "Minimalis",
+    "independent": "Mandiri",
+    "functional": "Fungsional",
+    "social": "Sosial",
+    "warm": "Hangat",
+    "trendy": "Trendi",
+    "inclusive": "Inklusif",
+    "progressive": "Progresif",
+    "passionate": "Penuh Gairah"
+  },
+  "share": {
+    "title": "Bagikan Hasilmu",
+    "copyLink": "Salin Link",
+    "copied": "Tersalin!",
+    "text": "Kota MBTI-ku adalah {city} ({mbti})!",
+    "cta": "Cari tahu kotamu!"
+  }
+}
