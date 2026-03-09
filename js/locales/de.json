@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI-Stadte-Test - DopaBrain",
-    "description": "Welche Stadt passt zu deinem MBTI? 8 Reise-Szenario-Fragen verraten deine perfekte Weltstadt!"
+    "title": "MBTI Stadt-Test - DopaBrain",
+    "description": "Welche Stadt passt zu deinem MBTI? 8 Reiseszenario-Fragen enthüllen deine perfekte Stadt!"
   },
   "a11y": {
     "skipToContent": "Zum Inhalt springen"
@@ -10,167 +10,263 @@
     "loading": "Laden..."
   },
   "app": {
-    "title": "MBTI-Stadte-Test",
-    "subtitle": "Welche Stadt der Welt passt zu deinem MBTI?",
-    "startDesc": "Beantworte 8 Reise-Szenario-Fragen und entdecke deine MBTI-Stadt!",
+    "title": "MBTI Stadt-Test",
+    "subtitle": "Welche Stadt passt zu deinem MBTI?",
+    "startDesc": "Beantworte 8 Reiseszenario-Fragen und entdecke deine MBTI-Stadt!",
     "startBtn": "Test starten",
     "questionLabel": "Frage",
-    "retryBtn": "Nochmal versuchen"
+    "retryBtn": "Nochmal"
   },
   "questions": {
     "q1": {
       "text": "Du bist gerade in einer neuen Stadt angekommen. Wie erkundest du sie?",
       "options": {
-        "0": { "icon": "🗣️", "text": "Mit Einheimischen ins Gesprach kommen und nach Tipps fragen" },
-        "1": { "icon": "👫", "text": "Mit Reisebegleitern voller Energie durch die Strassen ziehen" },
-        "2": { "icon": "🎧", "text": "Kopfhorer aufsetzen und allein durch die Stadt schlendern" },
-        "3": { "icon": "📖", "text": "In einem Cafe sitzen und die Atmosphare langsam aufsaugen" }
+        "0": {
+          "icon": "🗣️",
+          "text": "Mit Einheimischen plaudern und nach ihren Lieblingsorten fragen"
+        },
+        "1": {
+          "icon": "👫",
+          "text": "Mit Reisefreunden voller Energie durch die Straßen"
+        },
+        "2": {
+          "icon": "🎧",
+          "text": "Kopfhörer auf und alleine umherstreifen"
+        },
+        "3": {
+          "icon": "📖",
+          "text": "In einem Café sitzen und die Stadtatmosphäre genießen"
+        }
       }
     },
     "q2": {
-      "text": "Welche Art von Viertel zieht dich an?",
+      "text": "Welche Art von Viertel spricht dich an?",
       "options": {
-        "0": { "icon": "🏛️", "text": "Historische Gebaude und traditionelle Markte" },
-        "1": { "icon": "🍜", "text": "Lokale Imbisse und lebendige Seitengassen" },
-        "2": { "icon": "🎨", "text": "Kunstviertel mit Galerien und unabhangigen Buchladen" },
-        "3": { "icon": "🚀", "text": "Futuristische Architektur und innovative Raume" }
+        "0": {
+          "icon": "🏛️",
+          "text": "Historische Gebäude und traditionelle Märkte"
+        },
+        "1": {
+          "icon": "🍜",
+          "text": "Lokale Imbisse und lebendige Gassen"
+        },
+        "2": {
+          "icon": "🎨",
+          "text": "Kunstviertel mit Galerien und Indie-Buchläden"
+        },
+        "3": {
+          "icon": "🚀",
+          "text": "Futuristische Architektur und innovative Räume"
+        }
       }
     },
     "q3": {
-      "text": "Ein Einheimischer empfiehlt dir zwei Restaurants. Wie wahlst du?",
+      "text": "Ein Einheimischer empfiehlt zwei Restaurants. Wie entscheidest du?",
       "options": {
-        "0": { "icon": "⭐", "text": "Das mit der hoheren Bewertung und verifizierten Rezensionen" },
-        "1": { "icon": "📊", "text": "Bestes Preis-Leistungs-Verhaltnis und effizienter Service" },
-        "2": { "icon": "💕", "text": "Das mit der besseren Atmosphare und Stimmung" },
-        "3": { "icon": "🤗", "text": "Sein personlicher Favorit, den er wirklich liebt" }
+        "0": {
+          "icon": "⭐",
+          "text": "Das mit höheren Bewertungen und verifizierten Rezensionen"
+        },
+        "1": {
+          "icon": "📊",
+          "text": "Bestes Preis-Leistungs-Verhältnis und effizienter Service"
+        },
+        "2": {
+          "icon": "💕",
+          "text": "Das mit dem besseren Ambiente und Stimmung"
+        },
+        "3": {
+          "icon": "🤗",
+          "text": "Ihr persönlicher Favorit, den sie wirklich lieben"
+        }
       }
     },
     "q4": {
-      "text": "Wie ist dein Reiseplanungs-Stil?",
+      "text": "Wie planst du deine Reisen?",
       "options": {
-        "0": { "icon": "📋", "text": "Vollstandiger Zeitplan mit Zeitfenstern, alles durchgeplant" },
-        "1": { "icon": "📍", "text": "Hauptattraktionen markiert, der Rest bleibt flexibel" },
-        "2": { "icon": "🎲", "text": "Grobe Richtung, entscheide spontan" },
-        "3": { "icon": "🌊", "text": "Kein Plan ist der beste Plan! Wohin der Wind mich tragt" }
+        "0": {
+          "icon": "📋",
+          "text": "Voller Zeitplan mit Zeitfenstern, alles geplant"
+        },
+        "1": {
+          "icon": "📍",
+          "text": "Wichtige Orte markiert, der Rest bleibt flexibel"
+        },
+        "2": {
+          "icon": "🎲",
+          "text": "Grobe Richtung, spontan entscheiden"
+        },
+        "3": {
+          "icon": "🌊",
+          "text": "Kein Plan ist der beste Plan — wohin der Wind weht"
+        }
       }
     },
     "q5": {
       "text": "Dein perfekter Abend in einer neuen Stadt?",
       "options": {
-        "0": { "icon": "🎉", "text": "In eine lokale Bar gehen und neue Leute kennenlernen" },
-        "1": { "icon": "🍽️", "text": "Abendessen mit einheimischen Freunden" },
-        "2": { "icon": "🌙", "text": "Allein von einem Dach aus die Nacht-Skyline betrachten" },
-        "3": { "icon": "📝", "text": "Ruhig im Hotel mein Reisetagebuch schreiben" }
+        "0": {
+          "icon": "🎉",
+          "text": "In eine lokale Bar gehen und neue Leute kennenlernen"
+        },
+        "1": {
+          "icon": "🍽️",
+          "text": "Abendessen mit lokalen Freunden"
+        },
+        "2": {
+          "icon": "🌙",
+          "text": "Allein von einem Dach die Nachtskyline betrachten"
+        },
+        "3": {
+          "icon": "📝",
+          "text": "Ruhig im Hotel Tagebuch schreiben"
+        }
       }
     },
     "q6": {
-      "text": "Was fallt dir beim Spazieren auf der Strasse zuerst auf?",
+      "text": "Beim Spaziergang — was fällt dir zuerst auf?",
       "options": {
-        "0": { "icon": "🏗️", "text": "Der architektonische Stil und die Gebaudestruktur" },
-        "1": { "icon": "🛍️", "text": "Schaufenster und lokale Produkte" },
-        "2": { "icon": "🌈", "text": "Versteckte Wandmalereien und Strassenkunst" },
-        "3": { "icon": "✨", "text": "Die Gesamtenergie und Atmosphare der Stadt" }
+        "0": {
+          "icon": "🏗️",
+          "text": "Architekturstil und Gebäudestrukturen"
+        },
+        "1": {
+          "icon": "🛍️",
+          "text": "Schaufenster und lokale Produkte"
+        },
+        "2": {
+          "icon": "🌈",
+          "text": "Versteckte Wandmalereien und Straßenkunst"
+        },
+        "3": {
+          "icon": "✨",
+          "text": "Die gesamte Energie und Atmosphäre der Stadt"
+        }
       }
     },
     "q7": {
-      "text": "Du siehst einen Strassenkuenstler, der es schwer hat. Was machst du?",
+      "text": "Du siehst einen kämpfenden Straßenkünstler. Was tust du?",
       "options": {
-        "0": { "icon": "🧐", "text": "Die Qualitat beurteilen und dann uber Trinkgeld entscheiden" },
-        "1": { "icon": "💡", "text": "Uberlegen, einen besseren Standort oder Ansatz vorzuschlagen" },
-        "2": { "icon": "💰", "text": "Trinkgeld geben mit einem aufmunternden Lacheln" },
-        "3": { "icon": "👏", "text": "Stehenbleiben und aufrichtig die Darbietung wurdigen" }
+        "0": {
+          "icon": "🧐",
+          "text": "Die Qualität der Darbietung beurteilen, dann über Trinkgeld entscheiden"
+        },
+        "1": {
+          "icon": "💡",
+          "text": "Einen besseren Standort oder Ansatz vorschlagen"
+        },
+        "2": {
+          "icon": "💰",
+          "text": "Ein Trinkgeld mit ermutigendem Lächeln geben"
+        },
+        "3": {
+          "icon": "👏",
+          "text": "Anhalten und ihre Bemühungen aufrichtig würdigen"
+        }
       }
     },
     "q8": {
-      "text": "Dein Flug hat 6 Stunden Verspatung. Was tust du?",
+      "text": "Dein Flug hat 6 Stunden Verspätung. Was tust du?",
       "options": {
-        "0": { "icon": "📅", "text": "Sofort nach Ersatzflugen suchen und umplanen" },
-        "1": { "icon": "📞", "text": "Die Fluggesellschaft wegen Entschadigung kontaktieren" },
-        "2": { "icon": "🏙️", "text": "Den Flughafen verlassen und die nahegelegene Stadt erkunden" },
-        "3": { "icon": "🎵", "text": "In der Lounge mit Musik entspannen und die Pause geniessen" }
+        "0": {
+          "icon": "📅",
+          "text": "Sofort nach Alternativflügen suchen und umbuchen"
+        },
+        "1": {
+          "icon": "📞",
+          "text": "Die Airline wegen Entschädigungsrichtlinien kontaktieren"
+        },
+        "2": {
+          "icon": "🏙️",
+          "text": "Den Flughafen verlassen und die Stadt erkunden"
+        },
+        "3": {
+          "icon": "🎵",
+          "text": "In der Lounge mit Musik entspannen und die Zeit genießen"
+        }
       }
     }
   },
   "results": {
     "INTJ": {
-      "name": "Tokio (Tokyo)",
+      "name": "Tokyo",
       "tagline": "Strategisch, effizient und futuristisch",
-      "description": "Wie Tokio wirkst du ausserlick ruhig, tragst aber prazise Strategien in dir. Mit der Punktlichkeit des Shinkansen planst du alles und strebst unermudlich nach Innovation wie Akihabara. Selbst in Situationen so komplex wie die Shibuya-Kreuzung findest du deinen Weg mit absoluter Klarheit."
+      "description": "Wie Tokyo wirkst du an der Oberfläche ruhig, hegst aber akribische Strategien in deinem Inneren. Mit der Präzision eines Shinkansen-Fahrplans und Akihabaras unermüdlicher Innovation meisterst du selbst die komplexesten Situationen mit unerschütterlicher Klarheit."
     },
     "ENFP": {
       "name": "Barcelona",
       "tagline": "Bunt, kreativ und spontan",
-      "description": "Wie Barcelona bist du so originell wie Gaudis Architektur. Voller Energie wie La Rambla, mischst du Strandvibes mit urbanem Charme. Ein Kaleidoskop der Leidenschaft, wohin du auch gehst. Jeder Moment ist eine Fiesta — Barcelona ist deine Stadt."
+      "description": "Wie Barcelona bist du so originell wie Gaudis Architektur. Voller La-Rambla-Energie und einer Mischung aus Strandfeeling und urbanem Charme trägst du ein Kaleidoskop der Leidenschaften in dir."
     },
     "ISTJ": {
       "name": "London",
-      "tagline": "Traditionell, verlasslich und strukturiert",
-      "description": "Wie London bist du der Big Ben deiner Welt — prazise, verlasslich und bestandig durch die Zeiten. Du ehrst Tradition und baust solide Erfolge auf. Wie ein koniglicher Gardist stehst du still auf deinem Posten — immer da, immer punktlich."
+      "tagline": "Traditionell, zuverlässig und strukturiert",
+      "description": "Wie London bist du der Big Ben deiner Welt — präzise, verlässlich und durch alle Zeiten standhaft. Du ehrst Tradition und baust gleichzeitig solide Errungenschaften auf."
     },
     "INFP": {
       "name": "Paris",
-      "tagline": "Romantisch, kunstlerisch und vertraumt",
-      "description": "Wie Paris tragst du die sanften Wellen der Seine in deiner Seele. Du malst deine eigene Welt wie die Kunstler von Montmartre und hinterlasst einen stillen, aber unvergesslichen Eindruck wie der Eiffelturm in der Dammerung. Deine Seelenstadt duftet nach alten Buchhandlungen und geflusterter Inspiration."
+      "tagline": "Romantisch, künstlerisch und verträumt",
+      "description": "Wie Paris trägst du die sanften Wellen der Seine in deiner Seele. Du malst deine eigene Welt wie die Künstler von Montmartre und hinterlässt einen leisen, aber unvergesslichen Eindruck."
     },
     "ENTP": {
       "name": "New York",
-      "tagline": "Innovativ, schnell und debattierfreudig",
-      "description": "Wie New York bist du die Stadt, die niemals schlaft. Mit der Geschwindigkeit der Wall Street und der Kreativitat des Broadway verwandelst du jede Herausforderung in eine Chance. Du leuchtest mit neuen Ideen wie das Neon am Times Square — immer hell, immer voraus."
+      "tagline": "Innovativ, schnelllebig und diskussionsfreudig",
+      "description": "Wie New York bist du die Stadt, die niemals schläft. Mit der Geschwindigkeit der Wall Street und der Kreativität des Broadway verwandelst du jede Herausforderung in eine Chance."
     },
     "ISFJ": {
-      "name": "Kopenhagen (Copenhagen)",
-      "tagline": "Gemutlich, fursorglich und gemeinschaftlich",
-      "description": "Wie Kopenhagen verkorperst du die Warme von Hygge. Du erhellst deine Umgebung wie Nyhavns bunte Hauser und kumerst dich um alle mit der Leichtigkeit einer Fahrradstadt. In deiner Nahe zu sein ist wie in der glucklichsten Stadt der Welt — ruhig, warm und sicher."
+      "name": "Copenhagen",
+      "tagline": "Gemütlich, fürsorglich und gemeinschaftlich",
+      "description": "Wie Kopenhagen verkörperst du die Wärme von Hygge. Du erhellst deine Umgebung wie Nyhavns bunte Häuser und kümmerst dich um alle mit der Sanftheit einer Fahrradstadt."
     },
     "ENTJ": {
-      "name": "Singapur (Singapore)",
-      "tagline": "Ehrgeizig, organisiert und machtig",
-      "description": "Wie Singapur bist du klein, aber machtig. Du setzt Ziele so hoch wie Marina Bay Sands und fuhrst sie mit der makellosen Effizienz des Changi Airport aus. Wie Gardens by the Bay vereinst du Vision und Praxis — ein geborener Anfuhrer."
+      "name": "Singapore",
+      "tagline": "Ehrgeizig, organisiert und mächtig",
+      "description": "Wie Singapur bist du klein, aber mächtig. Du setzt dir Ziele so hoch wie Marina Bay Sands und führst sie mit der makellosen Effizienz des Changi Airport aus."
     },
     "INFJ": {
       "name": "Kyoto",
-      "tagline": "Spirituell, tiefgrundug und harmonisch",
-      "description": "Wie Kyoto bewahrst du tiefe Weisheit unter deiner ruhigen Oberflache. Dein inneres Licht scheint sanft wie die goldene Spiegelung des Kinkaku-ji, und deine Einsicht ist so tief wie die Stille eines Zen-Steingartens. Wie der Wind durch Bambushaine — leise, aber das Herz beruhrend."
+      "tagline": "Spirituell, tiefgründig und harmonisch",
+      "description": "Wie Kyoto bewahrst du tiefe Weisheit unter einem ruhigen Äußeren. Dein inneres Licht leuchtet sanft wie die goldene Spiegelung des Kinkaku-ji."
     },
     "ESTP": {
       "name": "Dubai",
-      "tagline": "Kuhn, actionreich und luxurios",
-      "description": "Wie Dubai machst du das Unmogliche moglich. Mit dem furchtlosen Ehrgeiz des Burj Khalifa und der Kuhnheit, eine Stadt auf Sand zu bauen, lebst du auf Vollgas. Vom Fallschirmspringen bis zur Wustensafari — du bist pure Aktion: kuhn, schnell und unvergesslich."
+      "tagline": "Kühn, actionreich und luxuriös",
+      "description": "Wie Dubai machst du das Unmögliche möglich. Mit dem furchtlosen Ehrgeiz des Burj Khalifa lebst du das Leben auf Vollgas."
     },
     "ISFP": {
-      "name": "Florenz (Florence)",
-      "tagline": "Kunstlerisch, sinnlich und wunderschon",
-      "description": "Wie Florenz tragst du die Schonheit der Renaissance in deiner Seele. Du betrachtest die Welt mit der Sensibilitat eines Uffizien-Meisterwerks und berehrst mit der stillen Kraft eines toskanischen Sonnenuntergangs. Wie Michelangelos David siehst du die Welt durch deine eigene asthetische Linse."
+      "name": "Florence",
+      "tagline": "Künstlerisch, sinnlich und wunderschön",
+      "description": "Wie Florenz trägst du die Schönheit der Renaissance in deiner Seele. Du betrachtest die Welt mit der Sensibilität eines Uffizi-Meisterwerks."
     },
     "ESTJ": {
       "name": "Berlin",
-      "tagline": "Praktisch, direkt und geborener Anfuhrer",
-      "description": "Wie Berlin erhebst du dich aus der Geschichte und baust Neues. Deine Prasenz ist so unverwechselbar wie das Brandenburger Tor, deine Losungen so praktisch wie deutsche Ingenieurskunst. Du reisst Mauern nieder und uberwindest Hindernisse — ein starker Anfuhrer, wie Berlin selbst."
+      "tagline": "Praktisch, direkt und geborener Anführer",
+      "description": "Wie Berlin erhebst du dich aus der Geschichte und baust etwas Neues. Deine Präsenz ist so unverkennbar wie das Brandenburger Tor."
     },
     "INTP": {
       "name": "Reykjavik",
-      "tagline": "Intellektuell, einzigartig und einsamkeitsliebend",
-      "description": "Wie Reykjavik bist du wahrhaft einzigartig. Dein Denken ist so unberechenbar wie Nordlichter, und deine Ideen brechen wie Geysire hervor. In der stillen Landschaft einer Vulkaninsel findest du Antworten, die andere ubersehen — ein Denker in der Einsamkeit."
+      "tagline": "Intellektuell, einzigartig und einzelgängerisch",
+      "description": "Wie Reykjavik bist du wirklich einzigartig. Dein Denken ist so unvorhersehbar wie die Nordlichter, und deine Ideen brechen wie Geysire hervor."
     },
     "ESFP": {
       "name": "Rio de Janeiro",
-      "tagline": "Feierfreudig, lebendig und frohlich",
-      "description": "Wie Rio fliesst Karnevalsenergie durch deine Adern. Strahlend und warm wie die Sonne Copacabanas, bringst du jeden Raum mit Samba-Rhythmus zum Leuchten. Wie Christus der Erloser auf dem Corcovado stehen deine Arme allen offen — denn fur dich ist das Leben selbst das grosste Fest."
+      "tagline": "Feierlustig, lebendig und fröhlich",
+      "description": "Wie Rio trägst du die Energie des Karnevals in deinen Adern. Strahlend und warm wie Copacabanas Sonne erhellst du jeden Raum."
     },
     "ISTP": {
       "name": "Oslo",
-      "tagline": "Minimalistisch, unabhangig und funktional",
-      "description": "Wie Oslo entfernst du das Unnoetige und konzentrierst dich auf das Wesentliche. Du strebst nach reiner Effizienz wie Norwegens unberuhrte Fjorde und verkorperst die makellose Funktionalitat skandinavischen Designs. Du funktionierst perfekt allein, gehst still deinen eigenen Weg — eigenstandig und stark."
+      "tagline": "Minimalistisch, unabhängig und funktional",
+      "description": "Wie Oslo streifst du das Unnötige ab und konzentrierst dich auf das Wesentliche. Du strebst nach reiner Effizienz wie Norwegens unberührte Fjorde."
     },
     "ESFJ": {
       "name": "Seoul",
-      "tagline": "Gesellig, warmherzig und trendy",
-      "description": "Wie Seoul vereinst du Tradition und Trend muhelos. Du nimmst alle auf wie die breiten Ufer des Han und sputst immer das Neue wie Hongdaes kreative Energie. Mit der Warme Bukchons und dem Glanz Gangnams machst du jedes Treffen besonders."
+      "tagline": "Sozial, warmherzig und trendy",
+      "description": "Wie Seoul verbindest du Tradition und Trend mit mühelosem Stil. Du umarmst alle wie die weiten Ufer des Han-Flusses."
     },
     "ENFJ": {
       "name": "Amsterdam",
-      "tagline": "Inklusiv, fortschrittlich und leidenschaftlich",
-      "description": "Wie Amsterdam feierst du Vielfalt in allen Formen. Du verbindest alles wie die Kanale der Stadt und machst die Welt schoner wie ein Tulpenfestival. Mit der tiefen Empathie des Anne-Frank-Hauses fuhrst du andere dazu, ihr wahres Selbst zu sein — warm, leidenschaftlich und inspirierend."
+      "tagline": "Inklusiv, progressiv und leidenschaftlich",
+      "description": "Wie Amsterdam feierst du Vielfalt in all ihren Formen. Du verbindest alles wie die Grachten der Stadt und machst die Welt schöner."
     }
   },
   "traits": {
@@ -181,49 +277,49 @@
     "creative": "Kreativ",
     "spontaneous": "Spontan",
     "traditional": "Traditionell",
-    "reliable": "Verlasslich",
+    "reliable": "Zuverlässig",
     "structured": "Strukturiert",
     "romantic": "Romantisch",
-    "artistic": "Kunstlerisch",
-    "dreamy": "Vertraumt",
+    "artistic": "Künstlerisch",
+    "dreamy": "Verträumt",
     "innovative": "Innovativ",
-    "fastPaced": "Schnell",
-    "debateLover": "Debattierer",
-    "cozy": "Gemutlich",
-    "caring": "Fursorglich",
+    "fastPaced": "Schnelllebig",
+    "debateLover": "Diskussionsfreudig",
+    "cozy": "Gemütlich",
+    "caring": "Fürsorglich",
     "community": "Gemeinschaft",
     "ambitious": "Ehrgeizig",
     "organized": "Organisiert",
-    "powerful": "Machtig",
+    "powerful": "Mächtig",
     "spiritual": "Spirituell",
-    "deep": "Tief",
+    "deep": "Tiefgründig",
     "harmonious": "Harmonisch",
-    "bold": "Kuhn",
-    "action": "Aktion",
+    "bold": "Kühn",
+    "action": "Action",
     "luxury": "Luxus",
     "sensory": "Sinnlich",
-    "beautiful": "Wunderschon",
+    "beautiful": "Wunderschön",
     "practical": "Praktisch",
     "direct": "Direkt",
-    "leader": "Anfuhrer",
+    "leader": "Anführer",
     "intellectual": "Intellektuell",
     "unique": "Einzigartig",
-    "solitary": "Einzelganger",
+    "solitary": "Einzelgänger",
     "party": "Party",
     "vibrant": "Lebendig",
-    "joyful": "Frohlich",
+    "joyful": "Fröhlich",
     "minimal": "Minimalistisch",
-    "independent": "Unabhangig",
+    "independent": "Unabhängig",
     "functional": "Funktional",
-    "social": "Gesellig",
+    "social": "Sozial",
     "warm": "Warmherzig",
     "trendy": "Trendy",
     "inclusive": "Inklusiv",
-    "progressive": "Fortschrittlich",
+    "progressive": "Progressiv",
     "passionate": "Leidenschaftlich"
   },
   "share": {
-    "title": "Ergebnisse teilen",
+    "title": "Teile dein Ergebnis",
     "copyLink": "Link kopieren",
     "copied": "Kopiert!",
     "text": "Meine MBTI-Stadt ist {city} ({mbti})!",
