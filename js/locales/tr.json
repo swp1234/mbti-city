@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI Şehir Testi - DopaBrain",
-    "description": "Hangi şehir MBTI'nizle eşleşiyor? 8 seyahat senaryosu sorusu mükemmel şehrinizi ortaya çıkarıyor!"
+    "description": "Hangi şehir MBTI'nizle eşleşiyor? 8 seyahat senaryosu sorusu mükemmel şehrinizi ortaya çıkarıyor!",
+    "participants": "15.200+ katılımcı",
+    "timeEstimate": "~2 dk • 8 soru",
+    "previewText": "Popüler sonuç:"
   },
   "a11y": {
     "skipToContent": "İçeriğe geç"

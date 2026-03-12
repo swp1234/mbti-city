@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "Test MBTI de Ciudades - DopaBrain",
-    "description": "Cual ciudad coincide con tu MBTI? 8 preguntas de viaje revelan tu ciudad perfecta en el mundo!"
+    "description": "Cual ciudad coincide con tu MBTI? 8 preguntas de viaje revelan tu ciudad perfecta en el mundo!",
+    "participants": "15.200+ participantes",
+    "timeEstimate": "~2 min • 8 preguntas",
+    "previewText": "Resultado popular:"
   },
   "a11y": {
     "skipToContent": "Ir al contenido"

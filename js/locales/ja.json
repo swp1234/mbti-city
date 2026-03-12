@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI都市テスト - DopaBrain",
-    "description": "あなたのMBTIに合う都市はどこ？8つの旅シナリオ質問で、あなたにぴったりの世界都市を見つけよう！"
+    "description": "あなたのMBTIに合う都市はどこ？8つの旅シナリオ質問で、あなたにぴったりの世界都市を見つけよう！",
+    "participants": "15,200人以上が参加",
+    "timeEstimate": "約2分 • 8問",
+    "previewText": "人気の結果："
   },
   "a11y": {
     "skipToContent": "本文へスキップ"

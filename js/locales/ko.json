@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI 도시 테스트 - DopaBrain",
-    "description": "당신의 MBTI에 맞는 도시는 어디일까요? 8개의 여행 시나리오 질문으로 나만의 도시를 찾아보세요!"
+    "description": "당신의 MBTI에 맞는 도시는 어디일까요? 8개의 여행 시나리오 질문으로 나만의 도시를 찾아보세요!",
+    "participants": "15,200명+ 참여",
+    "timeEstimate": "~2분 • 8문항",
+    "previewText": "인기 결과:"
   },
   "a11y": {
     "skipToContent": "본문으로 건너뛰기"

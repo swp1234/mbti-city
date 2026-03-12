@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI City Test - DopaBrain",
-    "description": "Which city matches your MBTI? 8 travel scenario questions reveal your perfect world city match!"
+    "description": "Which city matches your MBTI? 8 travel scenario questions reveal your perfect world city match!",
+    "participants": "15,200+ participants",
+    "timeEstimate": "~2 min • 8 questions",
+    "previewText": "Popular result:"
   },
   "a11y": {
     "skipToContent": "Skip to content"

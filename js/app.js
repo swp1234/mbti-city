@@ -322,7 +322,14 @@
       });
     }
 
-    hideLoader();
+    // Wait for i18n to be ready before hiding loader
+    const startTime = Date.now();
+    const waitForI18n = setInterval(() => {
+      if ((window.i18n && window.i18n.initialized) || Date.now() - startTime > 2000) {
+        clearInterval(waitForI18n);
+        hideLoader();
+      }
+    }, 50);
   }
 
   if (document.readyState === 'loading') {

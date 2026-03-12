@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI城市测试 - DopaBrain",
-    "description": "你的MBTI对应哪座城市？8道旅行场景题，找到属于你的世界城市！"
+    "description": "你的MBTI对应哪座城市？8道旅行场景题，找到属于你的世界城市！",
+    "participants": "15,200+ 人参与",
+    "timeEstimate": "~2分钟 • 8题",
+    "previewText": "热门结果："
   },
   "a11y": {
     "skipToContent": "跳至正文"

@@ -1,7 +1,10 @@
 {
   "meta": {
     "title": "MBTI Stadt-Test - DopaBrain",
-    "description": "Welche Stadt passt zu deinem MBTI? 8 Reiseszenario-Fragen enthüllen deine perfekte Stadt!"
+    "description": "Welche Stadt passt zu deinem MBTI? 8 Reiseszenario-Fragen enthüllen deine perfekte Stadt!",
+    "participants": "15.200+ Teilnehmer",
+    "timeEstimate": "~2 Min • 8 Fragen",
+    "previewText": "Beliebtes Ergebnis:"
   },
   "a11y": {
     "skipToContent": "Zum Inhalt springen"
