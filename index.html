@@ -144,15 +144,32 @@
               <rect x="72" y="28" width="3" height="3" rx="0.5" fill="var(--primary-glow-solid)" opacity="0.8"/>
             </svg>
           </div>
-          <div class="social-proof" data-i18n="meta.participants">15,200+ participants</div>
+          <div class="social-proof-badge">
+            <div>
+              <div class="social-proof-count" data-i18n="meta.participants">15,200+</div>
+              <div class="social-proof-label" data-i18n="meta.participantsLabel">participants</div>
+            </div>
+            <div>
+              <div class="social-proof-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <div class="social-proof-label">4.3 / 5.0</div>
+            </div>
+          </div>
           <h1 data-i18n="app.title">MBTI City Test</h1>
           <p class="subtitle" data-i18n="app.subtitle">Which city matches your MBTI?</p>
           <p class="time-estimate" data-i18n="meta.timeEstimate">~2 min • 8 questions</p>
+          <div class="result-carousel" id="result-carousel"></div>
         </div>
         <div class="card" style="text-align:center">
           <p style="margin-bottom:16px;color:var(--text-muted)" data-i18n="app.startDesc">Answer 8 travel scenario questions to discover your MBTI city match!</p>
-          <div class="result-preview"><span data-i18n="meta.previewText">Popular result:</span> <strong>ENFP → 🗼 Paris</strong></div>
-          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtn">Start Test</button>
+          <div class="sample-question-preview">
+            <div class="sample-q-label" data-i18n="app.sampleQuestion">Sample Question</div>
+            <div class="sample-q-text" data-i18n="app.sampleQuestionText">You've just arrived in a new city. How do you explore?</div>
+            <div class="sample-q-options">
+              <div class="sample-q-option">&#128483;&#65039; Chat up locals and ask...</div>
+              <div class="sample-q-option">&#127911; Put on headphones and wander...</div>
+            </div>
+          </div>
+          <button id="start-btn" class="btn btn-primary" data-i18n="app.startBtn">Discover My City</button>
         </div>
       </section>
 

@@ -314,9 +314,30 @@
     }
   }
 
+  // Result carousel for start screen
+  function initResultCarousel() {
+    var carousel = document.getElementById('result-carousel');
+    if (!carousel) return;
+    var items = [
+      { mbti: 'INFP', city: t('results.INFP.name', 'Paris'), emoji: '🗼' },
+      { mbti: 'ENTJ', city: t('results.ENTJ.name', 'Singapore'), emoji: '🏙️' },
+      { mbti: 'ENFP', city: t('results.ENFP.name', 'Barcelona'), emoji: '🎨' },
+      { mbti: 'INTJ', city: t('results.INTJ.name', 'Tokyo'), emoji: '🗾' }
+    ];
+    var idx = 0;
+    function showItem() {
+      var item = items[idx];
+      carousel.innerHTML = '<div class="carousel-item">' + item.mbti + ' → ' + item.emoji + ' ' + item.city + '</div>';
+      idx = (idx + 1) % items.length;
+    }
+    showItem();
+    setInterval(showItem, 3000);
+  }
+
   // Init
   function init() {
     createParticles();
+    setTimeout(initResultCarousel, 500);
 
     const startBtn = document.getElementById('start-btn');
     if (startBtn) {

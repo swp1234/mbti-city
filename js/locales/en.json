@@ -2,9 +2,10 @@
   "meta": {
     "title": "MBTI City Test - DopaBrain",
     "description": "Which city matches your MBTI? 8 travel scenario questions reveal your perfect world city match!",
-    "participants": "15,200+ participants",
+    "participants": "15,200+",
     "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Popular result:"
+    "previewText": "Popular result:",
+    "participantsLabel": "participants"
   },
   "a11y": {
     "skipToContent": "Skip to content"
@@ -16,81 +17,179 @@
     "title": "MBTI City Test",
     "subtitle": "Which city matches your MBTI?",
     "startDesc": "Answer 8 travel scenario questions to discover your MBTI city match!",
-    "startBtn": "Start Test",
+    "startBtn": "Discover My City",
     "questionLabel": "Question",
-    "retryBtn": "Try Again"
+    "retryBtn": "Try Again",
+    "sampleQuestion": "Sample Question",
+    "sampleQuestionText": "You've just arrived in a new city. How do you explore?"
   },
   "questions": {
     "q1": {
       "text": "You've just arrived in a new city. How do you explore?",
       "options": {
-        "0": { "icon": "🗣️", "text": "Chat up locals and ask for their favorite spots" },
-        "1": { "icon": "👫", "text": "Hit the streets with travel buddies, full energy" },
-        "2": { "icon": "🎧", "text": "Put on headphones and wander solo" },
-        "3": { "icon": "📖", "text": "Sit in a cafe and soak in the city's vibe slowly" }
+        "0": {
+          "icon": "🗣️",
+          "text": "Chat up locals and ask for their favorite spots"
+        },
+        "1": {
+          "icon": "👫",
+          "text": "Hit the streets with travel buddies, full energy"
+        },
+        "2": {
+          "icon": "🎧",
+          "text": "Put on headphones and wander solo"
+        },
+        "3": {
+          "icon": "📖",
+          "text": "Sit in a cafe and soak in the city's vibe slowly"
+        }
       }
     },
     "q2": {
       "text": "What kind of neighborhood appeals to you?",
       "options": {
-        "0": { "icon": "🏛️", "text": "Historic buildings and traditional markets" },
-        "1": { "icon": "🍜", "text": "Local food joints and lived-in alleyways" },
-        "2": { "icon": "🎨", "text": "Art districts with galleries and indie bookshops" },
-        "3": { "icon": "🚀", "text": "Futuristic architecture and innovative spaces" }
+        "0": {
+          "icon": "🏛️",
+          "text": "Historic buildings and traditional markets"
+        },
+        "1": {
+          "icon": "🍜",
+          "text": "Local food joints and lived-in alleyways"
+        },
+        "2": {
+          "icon": "🎨",
+          "text": "Art districts with galleries and indie bookshops"
+        },
+        "3": {
+          "icon": "🚀",
+          "text": "Futuristic architecture and innovative spaces"
+        }
       }
     },
     "q3": {
       "text": "A local recommends two restaurants. How do you choose?",
       "options": {
-        "0": { "icon": "⭐", "text": "The one with higher ratings and verified reviews" },
-        "1": { "icon": "📊", "text": "Best value for money and efficient service" },
-        "2": { "icon": "💕", "text": "The one with better ambiance and mood" },
-        "3": { "icon": "🤗", "text": "Their personal favorite, the one they genuinely love" }
+        "0": {
+          "icon": "⭐",
+          "text": "The one with higher ratings and verified reviews"
+        },
+        "1": {
+          "icon": "📊",
+          "text": "Best value for money and efficient service"
+        },
+        "2": {
+          "icon": "💕",
+          "text": "The one with better ambiance and mood"
+        },
+        "3": {
+          "icon": "🤗",
+          "text": "Their personal favorite, the one they genuinely love"
+        }
       }
     },
     "q4": {
       "text": "What's your travel planning style?",
       "options": {
-        "0": { "icon": "📋", "text": "Full itinerary with time slots, everything mapped out" },
-        "1": { "icon": "📍", "text": "Key spots pinned, rest stays flexible" },
-        "2": { "icon": "🎲", "text": "Rough direction, decide on the fly" },
-        "3": { "icon": "🌊", "text": "No plan is the best plan — go where the wind takes me" }
+        "0": {
+          "icon": "📋",
+          "text": "Full itinerary with time slots, everything mapped out"
+        },
+        "1": {
+          "icon": "📍",
+          "text": "Key spots pinned, rest stays flexible"
+        },
+        "2": {
+          "icon": "🎲",
+          "text": "Rough direction, decide on the fly"
+        },
+        "3": {
+          "icon": "🌊",
+          "text": "No plan is the best plan — go where the wind takes me"
+        }
       }
     },
     "q5": {
       "text": "Your perfect evening in a new city?",
       "options": {
-        "0": { "icon": "🎉", "text": "Hit up a local bar and meet new people" },
-        "1": { "icon": "🍽️", "text": "Dinner party with local friends" },
-        "2": { "icon": "🌙", "text": "Watch the night skyline alone from a rooftop" },
-        "3": { "icon": "📝", "text": "Quiet journaling back at the hotel" }
+        "0": {
+          "icon": "🎉",
+          "text": "Hit up a local bar and meet new people"
+        },
+        "1": {
+          "icon": "🍽️",
+          "text": "Dinner party with local friends"
+        },
+        "2": {
+          "icon": "🌙",
+          "text": "Watch the night skyline alone from a rooftop"
+        },
+        "3": {
+          "icon": "📝",
+          "text": "Quiet journaling back at the hotel"
+        }
       }
     },
     "q6": {
       "text": "Walking down a street, what catches your eye first?",
       "options": {
-        "0": { "icon": "🏗️", "text": "The architectural style and building structures" },
-        "1": { "icon": "🛍️", "text": "Shop displays and local products" },
-        "2": { "icon": "🌈", "text": "Hidden murals and street art" },
-        "3": { "icon": "✨", "text": "The overall energy and atmosphere of the city" }
+        "0": {
+          "icon": "🏗️",
+          "text": "The architectural style and building structures"
+        },
+        "1": {
+          "icon": "🛍️",
+          "text": "Shop displays and local products"
+        },
+        "2": {
+          "icon": "🌈",
+          "text": "Hidden murals and street art"
+        },
+        "3": {
+          "icon": "✨",
+          "text": "The overall energy and atmosphere of the city"
+        }
       }
     },
     "q7": {
       "text": "You see a street performer struggling. What do you do?",
       "options": {
-        "0": { "icon": "🧐", "text": "Judge the performance quality, then decide on a tip" },
-        "1": { "icon": "💡", "text": "Think about suggesting a better location or approach" },
-        "2": { "icon": "💰", "text": "Drop a tip with an encouraging smile" },
-        "3": { "icon": "👏", "text": "Stop and genuinely appreciate their effort" }
+        "0": {
+          "icon": "🧐",
+          "text": "Judge the performance quality, then decide on a tip"
+        },
+        "1": {
+          "icon": "💡",
+          "text": "Think about suggesting a better location or approach"
+        },
+        "2": {
+          "icon": "💰",
+          "text": "Drop a tip with an encouraging smile"
+        },
+        "3": {
+          "icon": "👏",
+          "text": "Stop and genuinely appreciate their effort"
+        }
       }
     },
     "q8": {
       "text": "Your flight is delayed 6 hours. What do you do?",
       "options": {
-        "0": { "icon": "📅", "text": "Immediately look for alternative flights and rebook" },
-        "1": { "icon": "📞", "text": "Contact the airline about compensation policies" },
-        "2": { "icon": "🏙️", "text": "Leave the airport and explore the nearby city" },
-        "3": { "icon": "🎵", "text": "Relax in the lounge with music and enjoy the downtime" }
+        "0": {
+          "icon": "📅",
+          "text": "Immediately look for alternative flights and rebook"
+        },
+        "1": {
+          "icon": "📞",
+          "text": "Contact the airline about compensation policies"
+        },
+        "2": {
+          "icon": "🏙️",
+          "text": "Leave the airport and explore the nearby city"
+        },
+        "3": {
+          "icon": "🎵",
+          "text": "Relax in the lounge with music and enjoy the downtime"
+        }
       }
     }
   },

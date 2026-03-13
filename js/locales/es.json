@@ -2,9 +2,10 @@
   "meta": {
     "title": "Test MBTI de Ciudades - DopaBrain",
     "description": "Cual ciudad coincide con tu MBTI? 8 preguntas de viaje revelan tu ciudad perfecta en el mundo!",
-    "participants": "15.200+ participantes",
+    "participants": "15.200+",
     "timeEstimate": "~2 min • 8 preguntas",
-    "previewText": "Resultado popular:"
+    "previewText": "Resultado popular:",
+    "participantsLabel": "participantes"
   },
   "a11y": {
     "skipToContent": "Ir al contenido"
@@ -16,81 +17,179 @@
     "title": "Test MBTI de Ciudades",
     "subtitle": "Cual ciudad del mundo coincide con tu MBTI?",
     "startDesc": "Responde 8 preguntas sobre viajes y descubre tu ciudad MBTI!",
-    "startBtn": "Empezar Test",
+    "startBtn": "Descubre tu ciudad",
     "questionLabel": "Pregunta",
-    "retryBtn": "Intentar de nuevo"
+    "retryBtn": "Intentar de nuevo",
+    "sampleQuestion": "Pregunta de ejemplo",
+    "sampleQuestionText": "Acabas de llegar a una ciudad nueva. ¿Cómo la exploras?"
   },
   "questions": {
     "q1": {
       "text": "Acabas de llegar a una ciudad nueva. Como la exploras?",
       "options": {
-        "0": { "icon": "🗣️", "text": "Hablo con los locales y les pido recomendaciones" },
-        "1": { "icon": "👫", "text": "Salgo con mis companeros de viaje lleno de energia" },
-        "2": { "icon": "🎧", "text": "Me pongo auriculares y camino solo/a" },
-        "3": { "icon": "📖", "text": "Me siento en un cafe y absorbo la atmosfera" }
+        "0": {
+          "icon": "🗣️",
+          "text": "Hablo con los locales y les pido recomendaciones"
+        },
+        "1": {
+          "icon": "👫",
+          "text": "Salgo con mis companeros de viaje lleno de energia"
+        },
+        "2": {
+          "icon": "🎧",
+          "text": "Me pongo auriculares y camino solo/a"
+        },
+        "3": {
+          "icon": "📖",
+          "text": "Me siento en un cafe y absorbo la atmosfera"
+        }
       }
     },
     "q2": {
       "text": "Que tipo de barrio te atrae?",
       "options": {
-        "0": { "icon": "🏛️", "text": "Edificios historicos y mercados tradicionales" },
-        "1": { "icon": "🍜", "text": "Callejones con comida local y vida de barrio" },
-        "2": { "icon": "🎨", "text": "Distritos de arte con galerias y librerias independientes" },
-        "3": { "icon": "🚀", "text": "Arquitectura futurista y espacios innovadores" }
+        "0": {
+          "icon": "🏛️",
+          "text": "Edificios historicos y mercados tradicionales"
+        },
+        "1": {
+          "icon": "🍜",
+          "text": "Callejones con comida local y vida de barrio"
+        },
+        "2": {
+          "icon": "🎨",
+          "text": "Distritos de arte con galerias y librerias independientes"
+        },
+        "3": {
+          "icon": "🚀",
+          "text": "Arquitectura futurista y espacios innovadores"
+        }
       }
     },
     "q3": {
       "text": "Un local te recomienda dos restaurantes. Como eliges?",
       "options": {
-        "0": { "icon": "⭐", "text": "El que tenga mejores puntuaciones y resenas verificadas" },
-        "1": { "icon": "📊", "text": "La mejor relacion calidad-precio y servicio eficiente" },
-        "2": { "icon": "💕", "text": "El que tenga mejor ambiente y vibracion" },
-        "3": { "icon": "🤗", "text": "Su favorito personal, el que de verdad ama" }
+        "0": {
+          "icon": "⭐",
+          "text": "El que tenga mejores puntuaciones y resenas verificadas"
+        },
+        "1": {
+          "icon": "📊",
+          "text": "La mejor relacion calidad-precio y servicio eficiente"
+        },
+        "2": {
+          "icon": "💕",
+          "text": "El que tenga mejor ambiente y vibracion"
+        },
+        "3": {
+          "icon": "🤗",
+          "text": "Su favorito personal, el que de verdad ama"
+        }
       }
     },
     "q4": {
       "text": "Cual es tu estilo de planificacion de viajes?",
       "options": {
-        "0": { "icon": "📋", "text": "Itinerario completo con horarios, todo organizado" },
-        "1": { "icon": "📍", "text": "Puntos clave marcados, lo demas flexible" },
-        "2": { "icon": "🎲", "text": "Direccion general, decido sobre la marcha" },
-        "3": { "icon": "🌊", "text": "Sin plan es el mejor plan! Voy donde me lleve el viento" }
+        "0": {
+          "icon": "📋",
+          "text": "Itinerario completo con horarios, todo organizado"
+        },
+        "1": {
+          "icon": "📍",
+          "text": "Puntos clave marcados, lo demas flexible"
+        },
+        "2": {
+          "icon": "🎲",
+          "text": "Direccion general, decido sobre la marcha"
+        },
+        "3": {
+          "icon": "🌊",
+          "text": "Sin plan es el mejor plan! Voy donde me lleve el viento"
+        }
       }
     },
     "q5": {
       "text": "Tu noche perfecta en una ciudad nueva?",
       "options": {
-        "0": { "icon": "🎉", "text": "Ir a un bar local y conocer gente nueva" },
-        "1": { "icon": "🍽️", "text": "Cenar con amigos locales" },
-        "2": { "icon": "🌙", "text": "Ver el horizonte nocturno a solas desde una azotea" },
-        "3": { "icon": "📝", "text": "Escribir mi diario de viaje tranquilamente en el hotel" }
+        "0": {
+          "icon": "🎉",
+          "text": "Ir a un bar local y conocer gente nueva"
+        },
+        "1": {
+          "icon": "🍽️",
+          "text": "Cenar con amigos locales"
+        },
+        "2": {
+          "icon": "🌙",
+          "text": "Ver el horizonte nocturno a solas desde una azotea"
+        },
+        "3": {
+          "icon": "📝",
+          "text": "Escribir mi diario de viaje tranquilamente en el hotel"
+        }
       }
     },
     "q6": {
       "text": "Caminando por la calle, que te llama la atencion primero?",
       "options": {
-        "0": { "icon": "🏗️", "text": "El estilo arquitectonico y la estructura de los edificios" },
-        "1": { "icon": "🛍️", "text": "Los escaparates y productos locales" },
-        "2": { "icon": "🌈", "text": "Murales escondidos y arte callejero" },
-        "3": { "icon": "✨", "text": "La energia y atmosfera general de la ciudad" }
+        "0": {
+          "icon": "🏗️",
+          "text": "El estilo arquitectonico y la estructura de los edificios"
+        },
+        "1": {
+          "icon": "🛍️",
+          "text": "Los escaparates y productos locales"
+        },
+        "2": {
+          "icon": "🌈",
+          "text": "Murales escondidos y arte callejero"
+        },
+        "3": {
+          "icon": "✨",
+          "text": "La energia y atmosfera general de la ciudad"
+        }
       }
     },
     "q7": {
       "text": "Ves a un artista callejero pasandola mal. Que haces?",
       "options": {
-        "0": { "icon": "🧐", "text": "Evaluo la calidad y luego decido si doy propina" },
-        "1": { "icon": "💡", "text": "Pienso en sugerirle un mejor lugar o enfoque" },
-        "2": { "icon": "💰", "text": "Dejo propina con una sonrisa de animo" },
-        "3": { "icon": "👏", "text": "Me detengo y disfruto genuinamente su esfuerzo" }
+        "0": {
+          "icon": "🧐",
+          "text": "Evaluo la calidad y luego decido si doy propina"
+        },
+        "1": {
+          "icon": "💡",
+          "text": "Pienso en sugerirle un mejor lugar o enfoque"
+        },
+        "2": {
+          "icon": "💰",
+          "text": "Dejo propina con una sonrisa de animo"
+        },
+        "3": {
+          "icon": "👏",
+          "text": "Me detengo y disfruto genuinamente su esfuerzo"
+        }
       }
     },
     "q8": {
       "text": "Tu vuelo se retrasa 6 horas. Que haces?",
       "options": {
-        "0": { "icon": "📅", "text": "Busco vuelos alternativos y reorganizo el itinerario" },
-        "1": { "icon": "📞", "text": "Contacto a la aerolinea por las politicas de compensacion" },
-        "2": { "icon": "🏙️", "text": "Salgo del aeropuerto y exploro la ciudad cercana" },
-        "3": { "icon": "🎵", "text": "Me relajo en la sala VIP con musica y disfruto la pausa" }
+        "0": {
+          "icon": "📅",
+          "text": "Busco vuelos alternativos y reorganizo el itinerario"
+        },
+        "1": {
+          "icon": "📞",
+          "text": "Contacto a la aerolinea por las politicas de compensacion"
+        },
+        "2": {
+          "icon": "🏙️",
+          "text": "Salgo del aeropuerto y exploro la ciudad cercana"
+        },
+        "3": {
+          "icon": "🎵",
+          "text": "Me relajo en la sala VIP con musica y disfruto la pausa"
+        }
       }
     }
   },

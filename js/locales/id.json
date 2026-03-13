@@ -2,9 +2,10 @@
   "meta": {
     "title": "Tes Kota MBTI - DopaBrain",
     "description": "Kota mana yang cocok dengan MBTI Anda? 8 pertanyaan skenario perjalanan mengungkap kota yang sempurna untuk Anda!",
-    "participants": "15.200+ peserta",
+    "participants": "15.200+",
     "timeEstimate": "~2 menit • 8 pertanyaan",
-    "previewText": "Hasil populer:"
+    "previewText": "Hasil populer:",
+    "participantsLabel": "peserta"
   },
   "a11y": {
     "skipToContent": "Langsung ke konten"
@@ -16,9 +17,11 @@
     "title": "Tes Kota MBTI",
     "subtitle": "Kota mana yang cocok dengan MBTI Anda?",
     "startDesc": "Jawab 8 pertanyaan skenario perjalanan untuk menemukan kota MBTI Anda!",
-    "startBtn": "Mulai Tes",
+    "startBtn": "Temukan Kota Saya",
     "questionLabel": "Pertanyaan",
-    "retryBtn": "Coba Lagi"
+    "retryBtn": "Coba Lagi",
+    "sampleQuestion": "Contoh Pertanyaan",
+    "sampleQuestionText": "Kamu baru tiba di kota baru. Bagaimana cara kamu menjelajah?"
   },
   "questions": {
     "q1": {

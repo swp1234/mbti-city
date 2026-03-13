@@ -2,9 +2,10 @@
   "meta": {
     "title": "Teste MBTI de Cidades - DopaBrain",
     "description": "Qual cidade combina com seu MBTI? 8 perguntas de viagem revelam sua cidade perfeita no mundo!",
-    "participants": "15.200+ participantes",
+    "participants": "15.200+",
     "timeEstimate": "~2 min • 8 perguntas",
-    "previewText": "Resultado popular:"
+    "previewText": "Resultado popular:",
+    "participantsLabel": "participantes"
   },
   "a11y": {
     "skipToContent": "Pular para o conteudo"
@@ -16,81 +17,179 @@
     "title": "Teste MBTI de Cidades",
     "subtitle": "Qual cidade do mundo combina com seu MBTI?",
     "startDesc": "Responda 8 perguntas de viagem e descubra sua cidade MBTI!",
-    "startBtn": "Comecar Teste",
+    "startBtn": "Descubra sua cidade",
     "questionLabel": "Pergunta",
-    "retryBtn": "Tentar novamente"
+    "retryBtn": "Tentar novamente",
+    "sampleQuestion": "Exemplo de pergunta",
+    "sampleQuestionText": "Você acabou de chegar a uma cidade nova. Como explora?"
   },
   "questions": {
     "q1": {
       "text": "Voce acabou de chegar em uma cidade nova. Como explora?",
       "options": {
-        "0": { "icon": "🗣️", "text": "Puxo conversa com locais e peco dicas dos melhores lugares" },
-        "1": { "icon": "👫", "text": "Saio com os amigos de viagem, cheio de energia" },
-        "2": { "icon": "🎧", "text": "Coloco fones e caminho sozinho/a" },
-        "3": { "icon": "📖", "text": "Sento num cafe e absorvo a vibe da cidade devagar" }
+        "0": {
+          "icon": "🗣️",
+          "text": "Puxo conversa com locais e peco dicas dos melhores lugares"
+        },
+        "1": {
+          "icon": "👫",
+          "text": "Saio com os amigos de viagem, cheio de energia"
+        },
+        "2": {
+          "icon": "🎧",
+          "text": "Coloco fones e caminho sozinho/a"
+        },
+        "3": {
+          "icon": "📖",
+          "text": "Sento num cafe e absorvo a vibe da cidade devagar"
+        }
       }
     },
     "q2": {
       "text": "Que tipo de bairro te atrai?",
       "options": {
-        "0": { "icon": "🏛️", "text": "Predios historicos e mercados tradicionais" },
-        "1": { "icon": "🍜", "text": "Ruelas com comida local e vida de bairro" },
-        "2": { "icon": "🎨", "text": "Bairros artisticos com galerias e livrarias independentes" },
-        "3": { "icon": "🚀", "text": "Arquitetura futurista e espacos inovadores" }
+        "0": {
+          "icon": "🏛️",
+          "text": "Predios historicos e mercados tradicionais"
+        },
+        "1": {
+          "icon": "🍜",
+          "text": "Ruelas com comida local e vida de bairro"
+        },
+        "2": {
+          "icon": "🎨",
+          "text": "Bairros artisticos com galerias e livrarias independentes"
+        },
+        "3": {
+          "icon": "🚀",
+          "text": "Arquitetura futurista e espacos inovadores"
+        }
       }
     },
     "q3": {
       "text": "Um local recomenda dois restaurantes. Como voce escolhe?",
       "options": {
-        "0": { "icon": "⭐", "text": "O que tem melhor avaliacao e reviews confiaveis" },
-        "1": { "icon": "📊", "text": "Melhor custo-beneficio e servico eficiente" },
-        "2": { "icon": "💕", "text": "O que tem melhor clima e atmosfera" },
-        "3": { "icon": "🤗", "text": "O favorito pessoal dele, o que ele realmente ama" }
+        "0": {
+          "icon": "⭐",
+          "text": "O que tem melhor avaliacao e reviews confiaveis"
+        },
+        "1": {
+          "icon": "📊",
+          "text": "Melhor custo-beneficio e servico eficiente"
+        },
+        "2": {
+          "icon": "💕",
+          "text": "O que tem melhor clima e atmosfera"
+        },
+        "3": {
+          "icon": "🤗",
+          "text": "O favorito pessoal dele, o que ele realmente ama"
+        }
       }
     },
     "q4": {
       "text": "Qual e seu estilo de planejar viagens?",
       "options": {
-        "0": { "icon": "📋", "text": "Roteiro completo com horarios, tudo mapeado" },
-        "1": { "icon": "📍", "text": "Pontos principais marcados, o resto e flexivel" },
-        "2": { "icon": "🎲", "text": "Direcao geral, decido na hora" },
-        "3": { "icon": "🌊", "text": "Sem plano e o melhor plano! Vou pra onde o vento levar" }
+        "0": {
+          "icon": "📋",
+          "text": "Roteiro completo com horarios, tudo mapeado"
+        },
+        "1": {
+          "icon": "📍",
+          "text": "Pontos principais marcados, o resto e flexivel"
+        },
+        "2": {
+          "icon": "🎲",
+          "text": "Direcao geral, decido na hora"
+        },
+        "3": {
+          "icon": "🌊",
+          "text": "Sem plano e o melhor plano! Vou pra onde o vento levar"
+        }
       }
     },
     "q5": {
       "text": "Sua noite perfeita em uma cidade nova?",
       "options": {
-        "0": { "icon": "🎉", "text": "Ir a um bar local e conhecer gente nova" },
-        "1": { "icon": "🍽️", "text": "Jantar com amigos locais" },
-        "2": { "icon": "🌙", "text": "Ver o horizonte noturno sozinho/a de um terraco" },
-        "3": { "icon": "📝", "text": "Escrever meu diario de viagem tranquilamente no hotel" }
+        "0": {
+          "icon": "🎉",
+          "text": "Ir a um bar local e conhecer gente nova"
+        },
+        "1": {
+          "icon": "🍽️",
+          "text": "Jantar com amigos locais"
+        },
+        "2": {
+          "icon": "🌙",
+          "text": "Ver o horizonte noturno sozinho/a de um terraco"
+        },
+        "3": {
+          "icon": "📝",
+          "text": "Escrever meu diario de viagem tranquilamente no hotel"
+        }
       }
     },
     "q6": {
       "text": "Andando pela rua, o que chama sua atencao primeiro?",
       "options": {
-        "0": { "icon": "🏗️", "text": "O estilo arquitetonico e a estrutura dos predios" },
-        "1": { "icon": "🛍️", "text": "As vitrines e produtos locais" },
-        "2": { "icon": "🌈", "text": "Murais escondidos e arte de rua" },
-        "3": { "icon": "✨", "text": "A energia e atmosfera geral da cidade" }
+        "0": {
+          "icon": "🏗️",
+          "text": "O estilo arquitetonico e a estrutura dos predios"
+        },
+        "1": {
+          "icon": "🛍️",
+          "text": "As vitrines e produtos locais"
+        },
+        "2": {
+          "icon": "🌈",
+          "text": "Murais escondidos e arte de rua"
+        },
+        "3": {
+          "icon": "✨",
+          "text": "A energia e atmosfera geral da cidade"
+        }
       }
     },
     "q7": {
       "text": "Voce ve um artista de rua com dificuldades. O que faz?",
       "options": {
-        "0": { "icon": "🧐", "text": "Avalio a qualidade e depois decido se dou gorjeta" },
-        "1": { "icon": "💡", "text": "Penso em sugerir um lugar ou abordagem melhor" },
-        "2": { "icon": "💰", "text": "Deixo uma gorjeta com um sorriso encorajador" },
-        "3": { "icon": "👏", "text": "Paro e aprecio genuinamente o esforco" }
+        "0": {
+          "icon": "🧐",
+          "text": "Avalio a qualidade e depois decido se dou gorjeta"
+        },
+        "1": {
+          "icon": "💡",
+          "text": "Penso em sugerir um lugar ou abordagem melhor"
+        },
+        "2": {
+          "icon": "💰",
+          "text": "Deixo uma gorjeta com um sorriso encorajador"
+        },
+        "3": {
+          "icon": "👏",
+          "text": "Paro e aprecio genuinamente o esforco"
+        }
       }
     },
     "q8": {
       "text": "Seu voo atrasou 6 horas. O que voce faz?",
       "options": {
-        "0": { "icon": "📅", "text": "Procuro voos alternativos e reorganizo o roteiro" },
-        "1": { "icon": "📞", "text": "Entro em contato com a companhia sobre compensacao" },
-        "2": { "icon": "🏙️", "text": "Saio do aeroporto e exploro a cidade proxima" },
-        "3": { "icon": "🎵", "text": "Relaxo na sala VIP ouvindo musica e aproveitando a folga" }
+        "0": {
+          "icon": "📅",
+          "text": "Procuro voos alternativos e reorganizo o roteiro"
+        },
+        "1": {
+          "icon": "📞",
+          "text": "Entro em contato com a companhia sobre compensacao"
+        },
+        "2": {
+          "icon": "🏙️",
+          "text": "Saio do aeroporto e exploro a cidade proxima"
+        },
+        "3": {
+          "icon": "🎵",
+          "text": "Relaxo na sala VIP ouvindo musica e aproveitando a folga"
+        }
       }
     }
   },

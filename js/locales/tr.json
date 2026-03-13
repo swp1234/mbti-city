@@ -2,9 +2,10 @@
   "meta": {
     "title": "MBTI Şehir Testi - DopaBrain",
     "description": "Hangi şehir MBTI'nizle eşleşiyor? 8 seyahat senaryosu sorusu mükemmel şehrinizi ortaya çıkarıyor!",
-    "participants": "15.200+ katılımcı",
+    "participants": "15.200+",
     "timeEstimate": "~2 dk • 8 soru",
-    "previewText": "Popüler sonuç:"
+    "previewText": "Popüler sonuç:",
+    "participantsLabel": "katılımcı"
   },
   "a11y": {
     "skipToContent": "İçeriğe geç"
@@ -16,9 +17,11 @@
     "title": "MBTI Şehir Testi",
     "subtitle": "Hangi şehir MBTI'nizle eşleşiyor?",
     "startDesc": "MBTI şehir eşleşmenizi keşfetmek için 8 seyahat senaryosu sorusunu cevaplayın!",
-    "startBtn": "Teste Başla",
+    "startBtn": "Şehrimi Keşfet",
     "questionLabel": "Soru",
-    "retryBtn": "Tekrar Dene"
+    "retryBtn": "Tekrar Dene",
+    "sampleQuestion": "Örnek Soru",
+    "sampleQuestionText": "Yeni bir şehre vardın. Nasıl keşfedersin?"
   },
   "questions": {
     "q1": {

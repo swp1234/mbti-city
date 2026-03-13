@@ -2,9 +2,10 @@
   "meta": {
     "title": "Test Ville MBTI - DopaBrain",
     "description": "Quelle ville correspond à votre MBTI ? 8 questions de scénarios de voyage révèlent votre ville parfaite !",
-    "participants": "15 200+ participants",
+    "participants": "15 200+",
     "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Résultat populaire :"
+    "previewText": "Résultat populaire :",
+    "participantsLabel": "participants"
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
@@ -16,9 +17,11 @@
     "title": "Test Ville MBTI",
     "subtitle": "Quelle ville correspond à votre MBTI ?",
     "startDesc": "Répondez à 8 questions de scénarios de voyage pour découvrir votre ville MBTI !",
-    "startBtn": "Commencer le test",
+    "startBtn": "Découvre ta ville",
     "questionLabel": "Question",
-    "retryBtn": "Réessayer"
+    "retryBtn": "Réessayer",
+    "sampleQuestion": "Exemple de question",
+    "sampleQuestionText": "Tu viens d'arriver dans une nouvelle ville. Comment l'explores-tu ?"
   },
   "questions": {
     "q1": {

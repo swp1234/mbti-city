@@ -129,6 +129,22 @@ body {
   width: 160px;
   height: 110px;
   filter: drop-shadow(0 0 15px var(--primary-glow));
+  animation: skylineFloat 4s ease-in-out infinite;
+}
+.city-hero-svg rect[opacity] {
+  animation: windowBlink 3s ease-in-out infinite alternate;
+}
+.city-hero-svg rect:nth-child(2n) { animation-delay: 0.5s; }
+.city-hero-svg rect:nth-child(3n) { animation-delay: 1s; }
+.city-hero-svg rect:nth-child(4n) { animation-delay: 1.5s; }
+.city-hero-svg rect:nth-child(5n) { animation-delay: 2s; }
+@keyframes skylineFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+@keyframes windowBlink {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.9; }
 }
 .hero h1 {
   font-size: 2rem;
@@ -461,6 +477,97 @@ body {
 /* City rarity stat */
 .city-rarity { text-align: center; margin: 16px 0 0; font-size: 13px; color: var(--text-muted, #94a3b8); }
 .city-rarity strong { color: var(--primary, #FF6B35); }
+
+/* Enhanced social proof badge */
+.social-proof-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  border-radius: 24px;
+  background: linear-gradient(135deg, rgba(43,122,133,0.15), rgba(43,122,133,0.05));
+  border: 1px solid rgba(43,122,133,0.2);
+  margin-bottom: 16px;
+}
+.social-proof-count {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--primary-light);
+}
+.social-proof-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+.social-proof-stars {
+  display: flex;
+  gap: 2px;
+  font-size: 0.75rem;
+  color: #f5a623;
+}
+
+/* Result carousel */
+.result-carousel {
+  margin-top: 16px;
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.carousel-item {
+  font-size: 0.95rem;
+  font-weight: 600;
+  animation: carouselFade 0.5s ease;
+}
+@keyframes carouselFade {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Sample question preview */
+.sample-question-preview {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  text-align: left;
+}
+.sample-q-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.sample-q-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: var(--text);
+}
+.sample-q-options {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  filter: blur(3px);
+  opacity: 0.5;
+  pointer-events: none;
+  user-select: none;
+}
+.sample-q-option {
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
 
 /* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
