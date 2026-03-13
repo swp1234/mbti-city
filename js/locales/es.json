@@ -233,13 +233,14 @@
     "cta": "Descubre la tuya!"
   },
   "result": {
-    "moreTests": "Explora más",
-    "rarityText": "de viajeros comparten tu ciudad"
+    "moreTests": "Explorar más",
+    "rarityText": "de viajeros comparten tu ciudad",
+    "rareStat": "El {percent}% de viajeros comparten tu ciudad"
   },
   "related": {
-    "mbtiCoffee": "MBTI Café Match",
-    "mbtiLove": "MBTI Amor Match",
-    "mbtiCareer": "MBTI Carrera",
-    "emotionIceberg": "Iceberg Emocional"
+    "mbtiCoffee": "Café MBTI",
+    "mbtiLove": "Compatibilidad MBTI",
+    "mbtiCareer": "Carrera MBTI",
+    "emotionIceberg": "Iceberg emocional"
   }
 }

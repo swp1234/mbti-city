@@ -329,13 +329,14 @@
     "cta": "Temukan milikmu!"
   },
   "result": {
-    "moreTests": "Jelajahi Lainnya",
-    "rarityText": "pelancong berbagi kota yang sama"
+    "moreTests": "Jelajahi lagi",
+    "rarityText": "pelancong berbagi kota yang sama",
+    "rareStat": "{percent}% pelancong berbagi kotamu"
   },
   "related": {
-    "mbtiCoffee": "MBTI Kopi Match",
-    "mbtiLove": "MBTI Cinta Match",
-    "mbtiCareer": "MBTI Karir",
-    "emotionIceberg": "Gunung Es Emosi"
+    "mbtiCoffee": "Kopi MBTI",
+    "mbtiLove": "Kecocokan Cinta MBTI",
+    "mbtiCareer": "Karier MBTI",
+    "emotionIceberg": "Gunung es emosi"
   }
 }

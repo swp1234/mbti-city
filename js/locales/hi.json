@@ -234,12 +234,13 @@
   },
   "result": {
     "moreTests": "और जानें",
-    "rarityText": "यात्री आपका शहर साझा करते हैं"
+    "rarityText": "यात्री आपका शहर साझा करते हैं",
+    "rareStat": "{percent}% यात्री आपके शहर से मेल खाते हैं"
   },
   "related": {
-    "mbtiCoffee": "MBTI कॉफ़ी मैच",
-    "mbtiLove": "MBTI प्रेम मैच",
+    "mbtiCoffee": "MBTI कॉफी",
+    "mbtiLove": "MBTI प्रेम मिलान",
     "mbtiCareer": "MBTI करियर",
-    "emotionIceberg": "इमोशन आइसबर्ग"
+    "emotionIceberg": "भावना हिमशैल"
   }
 }

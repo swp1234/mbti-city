@@ -234,12 +234,13 @@
   },
   "result": {
     "moreTests": "探索更多",
-    "rarityText": "的旅行者与你同城"
+    "rarityText": "的旅行者与你同城",
+    "rareStat": "{percent}%的旅行者选择了你的城市"
   },
   "related": {
-    "mbtiCoffee": "MBTI咖啡匹配",
+    "mbtiCoffee": "MBTI咖啡",
     "mbtiLove": "MBTI恋爱匹配",
-    "mbtiCareer": "MBTI职业测试",
-    "emotionIceberg": "情绪冰山测试"
+    "mbtiCareer": "MBTI职业",
+    "emotionIceberg": "情感冰山"
   }
 }

@@ -329,13 +329,14 @@
     "cta": "Kendininkini bul!"
   },
   "result": {
-    "moreTests": "Daha Fazlasını Keşfet",
-    "rarityText": "gezgin senin şehrini paylaşıyor"
+    "moreTests": "Daha fazla keşfet",
+    "rarityText": "gezgin senin şehrini paylaşıyor",
+    "rareStat": "Gezginlerin {percent}%'i senin şehrini paylaşıyor"
   },
   "related": {
-    "mbtiCoffee": "MBTI Kahve Eşleşmesi",
-    "mbtiLove": "MBTI Aşk Eşleşmesi",
+    "mbtiCoffee": "MBTI Kahve",
+    "mbtiLove": "MBTI Aşk Uyumu",
     "mbtiCareer": "MBTI Kariyer",
-    "emotionIceberg": "Duygu Buzdağı"
+    "emotionIceberg": "Duygu buzdağı"
   }
 }

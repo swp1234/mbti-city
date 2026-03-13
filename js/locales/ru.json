@@ -233,13 +233,14 @@
     "cta": "Узнай свой!"
   },
   "result": {
-    "moreTests": "Узнайте больше",
-    "rarityText": "путешественников разделяют ваш город"
+    "moreTests": "Ещё тесты",
+    "rarityText": "путешественников разделяют ваш город",
+    "rareStat": "{percent}% путешественников выбрали ваш город"
   },
   "related": {
-    "mbtiCoffee": "MBTI кофе-матч",
-    "mbtiLove": "MBTI совместимость",
-    "mbtiCareer": "MBTI карьера",
+    "mbtiCoffee": "MBTI Кофе",
+    "mbtiLove": "MBTI Совместимость",
+    "mbtiCareer": "MBTI Карьера",
     "emotionIceberg": "Айсберг эмоций"
   }
 }

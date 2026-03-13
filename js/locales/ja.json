@@ -233,13 +233,14 @@
     "cta": "あなたも調べてみて！"
   },
   "result": {
-    "moreTests": "もっと探す",
-    "rarityText": "の旅行者があなたと同じ都市です"
+    "moreTests": "もっと見る",
+    "rarityText": "の旅行者があなたと同じ都市です",
+    "rareStat": "旅行者の{percent}%があなたと同じ都市です"
   },
   "related": {
-    "mbtiCoffee": "MBTIコーヒー診断",
-    "mbtiLove": "MBTI恋愛マッチ",
-    "mbtiCareer": "MBTIキャリア診断",
-    "emotionIceberg": "感情アイスバーグ"
+    "mbtiCoffee": "MBTIコーヒー",
+    "mbtiLove": "MBTI恋愛相性",
+    "mbtiCareer": "MBTIキャリア",
+    "emotionIceberg": "感情の氷山"
   }
 }

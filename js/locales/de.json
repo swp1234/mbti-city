@@ -330,10 +330,11 @@
   },
   "result": {
     "moreTests": "Mehr entdecken",
-    "rarityText": "der Reisenden teilen deine Stadt"
+    "rarityText": "der Reisenden teilen deine Stadt",
+    "rareStat": "{percent}% der Reisenden teilen deine Stadt"
   },
   "related": {
-    "mbtiCoffee": "MBTI Kaffee-Match",
+    "mbtiCoffee": "MBTI Kaffee",
     "mbtiLove": "MBTI Liebes-Match",
     "mbtiCareer": "MBTI Karriere",
     "emotionIceberg": "Emotions-Eisberg"

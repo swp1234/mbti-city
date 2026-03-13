@@ -227,10 +227,11 @@
   },
   "result": {
     "moreTests": "Explore More",
-    "rarityText": "of travelers share your city"
+    "rarityText": "of travelers share your city",
+    "rareStat": "{percent}% of travelers share your city"
   },
   "related": {
-    "mbtiCoffee": "MBTI Coffee Match",
+    "mbtiCoffee": "MBTI Coffee",
     "mbtiLove": "MBTI Love Match",
     "mbtiCareer": "MBTI Career",
     "emotionIceberg": "Emotion Iceberg"
