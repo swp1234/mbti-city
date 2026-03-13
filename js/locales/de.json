@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI Stadt-Test - DopaBrain",
-    "description": "Welche Stadt passt zu deinem MBTI? 8 Reiseszenario-Fragen enthüllen deine perfekte Stadt!",
+    "title": "Kostenloser MBTI Stadt-Test - DopaBrain",
+    "description": "Welche Stadt passt zu deinem MBTI? Kostenloser Online-Test mit 8 Reiseszenarien. Jetzt ausprobieren!",
     "participants": "15.200+",
     "timeEstimate": "~2 Min • 8 Fragen",
     "previewText": "Beliebtes Ergebnis:",
@@ -14,7 +14,7 @@
     "loading": "Laden..."
   },
   "app": {
-    "title": "MBTI Stadt-Test",
+    "title": "MBTI Stadt-Test - Finde deine Stadt",
     "subtitle": "Welche Stadt passt zu deinem MBTI?",
     "startDesc": "Beantworte 8 Reiseszenario-Fragen und entdecke deine MBTI-Stadt!",
     "startBtn": "Entdecke meine Stadt",
@@ -341,5 +341,12 @@
     "mbtiLove": "MBTI Liebes-Match",
     "mbtiCareer": "MBTI Karriere",
     "emotionIceberg": "Emotions-Eisberg"
+  },
+  "about": {
+    "toggle": "Über diesen Test",
+    "heading1": "Wie der MBTI-Stadt-Test funktioniert",
+    "text1": "Der MBTI-Stadt-Test analysiert deine Persönlichkeit anhand von 8 Reiseszenario-Fragen. Jede Frage bewertet eine der vier MBTI-Dimensionen. Basierend auf deinen Antworten wirst du mit einer von 16 Weltstädten gematcht.",
+    "heading2": "Warum dein Stadtergebnis wichtig ist",
+    "text2": "Deine zugeordnete Stadt gibt Einblicke in deine ideale Umgebung, soziale Präferenzen und deinen Lebensstil."
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "MBTI城市测试 - DopaBrain",
-    "description": "你的MBTI对应哪座城市？8道旅行场景题，找到属于你的世界城市！",
+    "title": "免费MBTI城市匹配测试 - DopaBrain",
+    "description": "你的MBTI对应哪座城市？免费在线测试，8道旅行场景题找到你的世界城市！立即尝试！",
     "participants": "15,200+",
     "timeEstimate": "~2分钟 • 8题",
     "previewText": "热门结果：",
@@ -14,7 +14,7 @@
     "loading": "加载中..."
   },
   "app": {
-    "title": "MBTI城市测试",
+    "title": "MBTI城市匹配测试 - 找到你的城市",
     "subtitle": "你的MBTI对应哪座世界城市？",
     "startDesc": "回答8道旅行场景题，发现你的MBTI城市！",
     "startBtn": "发现我的城市",
@@ -341,5 +341,12 @@
     "mbtiLove": "MBTI恋爱匹配",
     "mbtiCareer": "MBTI职业",
     "emotionIceberg": "情感冰山"
+  },
+  "about": {
+    "toggle": "关于本测试",
+    "heading1": "MBTI城市匹配测试如何运作",
+    "text1": "MBTI城市匹配测试通过8个旅行场景问题分析你的性格。每个问题评估MBTI的四个维度之一。根据你的回答，匹配16个最能反映你性格特征和旅行风格的世界城市之一。",
+    "heading2": "为什么城市匹配很重要",
+    "text2": "匹配的城市揭示了你理想环境、社交偏好和生活方式的洞察。无论是东京的战略效率、巴塞罗那的创意即兴还是巴黎的浪漫艺术，你的城市匹配结果都能激发旅行灵感或帮助你更好地了解自己。"
   }
 }
