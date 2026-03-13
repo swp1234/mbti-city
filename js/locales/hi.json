@@ -231,5 +231,15 @@
     "copied": "कॉपी हो गया!",
     "text": "मेरा MBTI शहर {city} ({mbti}) है!",
     "cta": "आप भी पता लगाएं!"
+  },
+  "result": {
+    "moreTests": "और जानें",
+    "rarityText": "यात्री आपका शहर साझा करते हैं"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI कॉफ़ी मैच",
+    "mbtiLove": "MBTI प्रेम मैच",
+    "mbtiCareer": "MBTI करियर",
+    "emotionIceberg": "इमोशन आइसबर्ग"
   }
 }

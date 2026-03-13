@@ -231,5 +231,15 @@
     "copied": "コピー済み！",
     "text": "私のMBTI都市は{city}（{mbti}）！",
     "cta": "あなたも調べてみて！"
+  },
+  "result": {
+    "moreTests": "もっと探す",
+    "rarityText": "の旅行者があなたと同じ都市です"
+  },
+  "related": {
+    "mbtiCoffee": "MBTIコーヒー診断",
+    "mbtiLove": "MBTI恋愛マッチ",
+    "mbtiCareer": "MBTIキャリア診断",
+    "emotionIceberg": "感情アイスバーグ"
   }
 }

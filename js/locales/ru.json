@@ -231,5 +231,15 @@
     "copied": "Скопировано!",
     "text": "Мой MBTI-город — {city} ({mbti})!",
     "cta": "Узнай свой!"
+  },
+  "result": {
+    "moreTests": "Узнайте больше",
+    "rarityText": "путешественников разделяют ваш город"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI кофе-матч",
+    "mbtiLove": "MBTI совместимость",
+    "mbtiCareer": "MBTI карьера",
+    "emotionIceberg": "Айсберг эмоций"
   }
 }

@@ -231,5 +231,15 @@
     "copied": "已复制！",
     "text": "我的MBTI城市是{city}（{mbti}）！",
     "cta": "你也来测测吧！"
+  },
+  "result": {
+    "moreTests": "探索更多",
+    "rarityText": "的旅行者与你同城"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI咖啡匹配",
+    "mbtiLove": "MBTI恋爱匹配",
+    "mbtiCareer": "MBTI职业测试",
+    "emotionIceberg": "情绪冰山测试"
   }
 }

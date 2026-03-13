@@ -225,6 +225,16 @@
     "progressive": "진보적인",
     "passionate": "열정적인"
   },
+  "result": {
+    "moreTests": "더 알아보기",
+    "rarityText": "의 여행자가 같은 도시예요"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI 커피 매칭",
+    "mbtiLove": "MBTI 연애 매칭",
+    "mbtiCareer": "MBTI 직업 테스트",
+    "emotionIceberg": "감정 빙산 테스트"
+  },
   "share": {
     "title": "결과 공유하기",
     "copyLink": "링크 복사",

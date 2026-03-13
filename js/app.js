@@ -186,6 +186,7 @@
       <div class="result-mbti">${mbti}</div>
       <div class="result-city-name">${cityName}</div>
       <div class="result-tagline">${cityTagline}</div>
+      <p class="city-rarity" id="city-rarity"></p>
       <div class="card">
         <div class="result-description">${cityDesc}</div>
         <div class="result-traits">
@@ -219,6 +220,21 @@
     `;
 
     bindShareButtons(mbti, cityName);
+
+    // City rarity percentage
+    const rarityEl = document.getElementById('city-rarity');
+    if (rarityEl) {
+      const rarities = { INFP: 4.4, ENFP: 8.1, INTJ: 2.1, ENTJ: 1.8, INFJ: 1.5, ENFJ: 2.5, INTP: 3.3, ENTP: 3.2, ISFP: 8.8, ESFP: 8.5, ISTJ: 11.6, ESTJ: 8.7, ISFJ: 13.8, ESFJ: 12.3, ISTP: 5.4, ESTP: 4.3 };
+      const pct = rarities[mbti] || 5;
+      rarityEl.innerHTML = `🌍 <strong>${pct}%</strong> ${t('result.rarityText', 'of travelers share your city')}`;
+    }
+
+    // Show related tests section
+    const relatedTests = document.getElementById('related-tests');
+    if (relatedTests) {
+      relatedTests.style.display = '';
+      if (window.i18n) window.i18n.translateDOM(relatedTests);
+    }
 
     const retryBtn = document.getElementById('retry-btn');
     if (retryBtn) {

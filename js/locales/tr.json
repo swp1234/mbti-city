@@ -327,5 +327,15 @@
     "copied": "Kopyalandı!",
     "text": "MBTI şehrim {city} ({mbti})!",
     "cta": "Kendininkini bul!"
+  },
+  "result": {
+    "moreTests": "Daha Fazlasını Keşfet",
+    "rarityText": "gezgin senin şehrini paylaşıyor"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI Kahve Eşleşmesi",
+    "mbtiLove": "MBTI Aşk Eşleşmesi",
+    "mbtiCareer": "MBTI Kariyer",
+    "emotionIceberg": "Duygu Buzdağı"
   }
 }

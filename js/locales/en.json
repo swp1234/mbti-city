@@ -225,6 +225,16 @@
     "progressive": "Progressive",
     "passionate": "Passionate"
   },
+  "result": {
+    "moreTests": "Explore More",
+    "rarityText": "of travelers share your city"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI Coffee Match",
+    "mbtiLove": "MBTI Love Match",
+    "mbtiCareer": "MBTI Career",
+    "emotionIceberg": "Emotion Iceberg"
+  },
   "share": {
     "title": "Share Your Results",
     "copyLink": "Copy Link",

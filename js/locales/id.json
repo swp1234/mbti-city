@@ -327,5 +327,15 @@
     "copied": "Disalin!",
     "text": "Kota MBTI saya adalah {city} ({mbti})!",
     "cta": "Temukan milikmu!"
+  },
+  "result": {
+    "moreTests": "Jelajahi Lainnya",
+    "rarityText": "pelancong berbagi kota yang sama"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI Kopi Match",
+    "mbtiLove": "MBTI Cinta Match",
+    "mbtiCareer": "MBTI Karir",
+    "emotionIceberg": "Gunung Es Emosi"
   }
 }

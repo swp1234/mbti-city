@@ -327,5 +327,15 @@
     "copied": "Kopiert!",
     "text": "Meine MBTI-Stadt ist {city} ({mbti})!",
     "cta": "Finde deine!"
+  },
+  "result": {
+    "moreTests": "Mehr entdecken",
+    "rarityText": "der Reisenden teilen deine Stadt"
+  },
+  "related": {
+    "mbtiCoffee": "MBTI Kaffee-Match",
+    "mbtiLove": "MBTI Liebes-Match",
+    "mbtiCareer": "MBTI Karriere",
+    "emotionIceberg": "Emotions-Eisberg"
   }
 }
