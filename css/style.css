@@ -428,6 +428,19 @@ body {
   .question-text { font-size: 1.3rem; }
 }
 
+@media (max-width: 640px) {
+  .hero { padding: 20px 0 16px; }
+  .city-hero-svg { width: 120px; height: 80px; }
+  .social-proof-badge {
+    padding: 6px 14px;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  .social-proof-count { font-size: 1rem; }
+  .hero h1 { font-size: 1.7rem; margin-bottom: 8px; }
+  .city-light:nth-child(n+9) { display: none; }
+}
+
 @media (max-width: 360px) {
   .share-btn span { display: none; }
   .share-btn { padding: 10px; }
@@ -555,8 +568,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  filter: blur(3px);
-  opacity: 0.5;
   pointer-events: none;
   user-select: none;
 }
@@ -615,6 +626,22 @@ body {
   line-height: 1.6;
   color: var(--text-muted);
   margin: 0 0 12px;
+}
+
+/* Mid-quiz encouragement */
+.mid-quiz-encouragement {
+  text-align: center;
+  font-size: 0.85rem;
+  color: var(--primary-light);
+  padding: 8px 0;
+  margin-bottom: 8px;
+  animation: encourageFade 2.5s ease forwards;
+}
+@keyframes encourageFade {
+  0% { opacity: 0; transform: translateY(-6px); }
+  15% { opacity: 1; transform: translateY(0); }
+  80% { opacity: 1; }
+  100% { opacity: 0.4; }
 }
 
 /* Reduced motion */

@@ -117,7 +117,12 @@
       });
     }
 
+    const encouragement = currentQuestion === 4
+      ? `<div class="mid-quiz-encouragement">${t('app.encouragement', 'Halfway there! 4 more to go!')}</div>`
+      : '';
+
     container.innerHTML = `
+      ${encouragement}
       <div class="question-number">${t('app.questionLabel', 'Question')} ${currentQuestion + 1}</div>
       <div class="question-text">${qText}</div>
       <div class="options">
