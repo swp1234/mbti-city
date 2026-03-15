@@ -350,9 +350,14 @@ body {
   background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   color: #fff;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 16px;
   font-size: 1.1rem;
   box-shadow: 0 4px 20px var(--primary-glow);
+  animation: ctaPulse 2s ease-in-out 1s 3;
+}
+@keyframes ctaPulse {
+  0%, 100% { box-shadow: 0 4px 20px var(--primary-glow); }
+  50% { box-shadow: 0 0 0 12px transparent, 0 4px 30px var(--primary-glow); }
 }
 .btn-primary:hover { box-shadow: 0 6px 30px var(--primary-glow); }
 .btn-secondary {
@@ -429,15 +434,19 @@ body {
 }
 
 @media (max-width: 640px) {
-  .hero { padding: 20px 0 16px; }
-  .city-hero-svg { width: 120px; height: 80px; }
+  .hero { padding: 16px 0 8px; }
+  .hero-icon { margin-bottom: 8px; }
+  .city-hero-svg { width: 100px; height: 60px; }
   .social-proof-badge {
-    padding: 6px 14px;
-    gap: 8px;
-    margin-bottom: 10px;
+    padding: 4px 12px;
+    gap: 6px;
+    margin-bottom: 8px;
   }
-  .social-proof-count { font-size: 1rem; }
-  .hero h1 { font-size: 1.7rem; margin-bottom: 8px; }
+  .social-proof-count { font-size: 0.9rem; }
+  .hero h1 { font-size: 1.5rem; margin-bottom: 6px; }
+  .subtitle { font-size: 0.9rem; }
+  .result-carousel { margin-top: 8px; }
+  .sample-question-preview { display: none; }
   .city-light:nth-child(n+9) { display: none; }
 }
 
