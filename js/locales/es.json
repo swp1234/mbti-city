@@ -341,7 +341,8 @@
     "mbtiLove": "Compatibilidad MBTI",
     "mbtiCareer": "Carrera MBTI",
     "emotionIceberg": "Iceberg emocional",
-    "burnoutTest": "Test de Burnout"
+    "burnoutTest": "Test de Burnout",
+    "stressResponse": "Respuesta al Estrés"
   },
   "about": {
     "toggle": "Acerca del test",

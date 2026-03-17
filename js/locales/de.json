@@ -341,7 +341,8 @@
     "mbtiLove": "MBTI Liebes-Match",
     "mbtiCareer": "MBTI Karriere",
     "emotionIceberg": "Emotions-Eisberg",
-    "burnoutTest": "Burnout-Test"
+    "burnoutTest": "Burnout-Test",
+    "stressResponse": "Stressreaktion"
   },
   "about": {
     "toggle": "Über diesen Test",

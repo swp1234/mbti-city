@@ -341,7 +341,8 @@
     "mbtiLove": "MBTI Совместимость",
     "mbtiCareer": "MBTI Карьера",
     "emotionIceberg": "Айсберг эмоций",
-    "burnoutTest": "Тест на выгорание"
+    "burnoutTest": "Тест на выгорание",
+    "stressResponse": "Стресс-реакция"
   },
   "about": {
     "toggle": "О тесте",
