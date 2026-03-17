@@ -342,7 +342,8 @@
     "mbtiCareer": "Carrière MBTI",
     "emotionIceberg": "Iceberg émotionnel",
     "burnoutTest": "Test de Burnout",
-    "stressResponse": "Réponse au Stress"
+    "stressResponse": "Réponse au Stress",
+    "anxietyType": "Type d'Anxiété"
   },
   "about": {
     "toggle": "À propos du test",

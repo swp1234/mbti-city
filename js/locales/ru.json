@@ -342,7 +342,8 @@
     "mbtiCareer": "MBTI Карьера",
     "emotionIceberg": "Айсберг эмоций",
     "burnoutTest": "Тест на выгорание",
-    "stressResponse": "Стресс-реакция"
+    "stressResponse": "Стресс-реакция",
+    "anxietyType": "Тип тревожности"
   },
   "about": {
     "toggle": "О тесте",

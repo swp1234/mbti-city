@@ -342,7 +342,8 @@
     "mbtiCareer": "MBTI 직업",
     "emotionIceberg": "감정 빙산",
     "burnoutTest": "번아웃 테스트",
-    "stressResponse": "스트레스 반응"
+    "stressResponse": "스트레스 반응",
+    "anxietyType": "불안 유형"
   },
   "share": {
     "title": "결과 공유하기",

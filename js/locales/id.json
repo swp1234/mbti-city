@@ -342,7 +342,8 @@
     "mbtiCareer": "Karier MBTI",
     "emotionIceberg": "Gunung es emosi",
     "burnoutTest": "Tes Burnout",
-    "stressResponse": "Respons Stres"
+    "stressResponse": "Respons Stres",
+    "anxietyType": "Tipe Kecemasan"
   },
   "about": {
     "toggle": "Tentang tes ini",

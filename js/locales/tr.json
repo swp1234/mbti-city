@@ -342,7 +342,8 @@
     "mbtiCareer": "MBTI Kariyer",
     "emotionIceberg": "Duygu buzdağı",
     "burnoutTest": "Tükenmişlik Testi",
-    "stressResponse": "Stres Tepkisi"
+    "stressResponse": "Stres Tepkisi",
+    "anxietyType": "Kaygı Tipi"
   },
   "about": {
     "toggle": "Test hakkında",
