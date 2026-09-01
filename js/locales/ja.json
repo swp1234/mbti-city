@@ -2,10 +2,7 @@
   "meta": {
     "title": "無料MBTIシティマッチテスト - DopaBrain",
     "description": "あなたのMBTIに合う都市は？8つの旅行シナリオで理想の都市を見つけよう！無料オンラインテスト！",
-    "participants": "15,200+",
-    "timeEstimate": "約2分 • 8問",
-    "previewText": "人気の結果：",
-    "participantsLabel": "人が参加"
+    "timeEstimate": "約2分 • 8問"
   },
   "a11y": {
     "skipToContent": "本文へスキップ"
@@ -332,9 +329,7 @@
     "cta": "あなたも調べてみて！"
   },
   "result": {
-    "moreTests": "もっと見る",
-    "rarityText": "の旅行者があなたと同じ都市です",
-    "rareStat": "旅行者の{percent}%があなたと同じ都市です"
+    "moreTests": "もっと見る"
   },
   "related": {
     "mbtiCoffee": "MBTIコーヒー",
@@ -344,12 +339,5 @@
     "burnoutTest": "バーンアウトテスト",
     "stressResponse": "ストレス反応",
     "anxietyType": "不安タイプ"
-  },
-  "about": {
-    "toggle": "テストについて",
-    "heading1": "MBTIシティマッチテストの仕組み",
-    "text1": "MBTIシティマッチテストは8つの旅行シナリオ質問を通じて性格を分析します。各質問はMBTIの4つの次元を評価し、あなたの性格と旅行スタイルに最も合う16の世界都市の1つとマッチングされます。",
-    "heading2": "シティマッチ結果が重要な理由",
-    "text2": "マッチした都市は、理想的な環境、社会的な好み、ライフスタイルについての洞察を明らかにします。"
   }
 }

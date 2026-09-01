@@ -2,23 +2,13 @@
   "meta": {
     "title": "무료 MBTI 도시 매칭 테스트 - DopaBrain",
     "description": "당신의 MBTI에 맞는 도시는? 무료 온라인 테스트로 8개 여행 시나리오를 통해 나만의 세계 도시를 찾아보세요!",
-    "participants": "15,200+",
-    "timeEstimate": "~2분 • 8문항",
-    "previewText": "인기 결과:",
-    "participantsLabel": "명 참여"
+    "timeEstimate": "~2분 • 8문항"
   },
   "a11y": {
     "skipToContent": "본문으로 건너뛰기"
   },
   "loader": {
     "loading": "로딩 중..."
-  },
-  "about": {
-    "toggle": "테스트 소개",
-    "heading1": "MBTI 도시 매칭 테스트는 어떻게 작동하나요?",
-    "text1": "MBTI 도시 매칭 테스트는 8개의 여행 시나리오 질문을 통해 성격을 분석합니다. 외향/내향, 감각/직관, 사고/감정, 판단/인식의 4가지 MBTI 차원을 평가하여 당신의 성격 특성과 여행 스타일에 가장 잘 맞는 16개 세계 도시 중 하나와 매칭됩니다.",
-    "heading2": "도시 매칭 결과가 중요한 이유",
-    "text2": "매칭된 도시는 이상적인 환경, 사회적 선호도, 라이프스타일에 대한 통찰을 제공합니다. 도쿄의 전략적 효율성, 바르셀로나의 창의적 즉흥성, 파리의 낭만적 예술성 등 당신의 도시 매칭 결과는 다음 여행지 영감이나 자기 이해에 도움이 됩니다."
   },
   "app": {
     "title": "MBTI 도시 매칭 테스트 - 나만의 도시 찾기",
@@ -332,9 +322,7 @@
     "passionate": "열정적인"
   },
   "result": {
-    "moreTests": "더 많은 테스트",
-    "rarityText": "의 여행자가 같은 도시예요",
-    "rareStat": "여행자의 {percent}%가 당신과 같은 도시입니다"
+    "moreTests": "더 많은 테스트"
   },
   "related": {
     "mbtiCoffee": "MBTI 커피",

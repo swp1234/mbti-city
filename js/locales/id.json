@@ -2,10 +2,7 @@
   "meta": {
     "title": "Tes Kota MBTI Gratis Online - DopaBrain",
     "description": "Kota mana yang cocok dengan MBTI Anda? Tes gratis dengan 8 skenario perjalanan. Coba sekarang!",
-    "participants": "15.200+",
-    "timeEstimate": "~2 menit • 8 pertanyaan",
-    "previewText": "Hasil populer:",
-    "participantsLabel": "peserta"
+    "timeEstimate": "~2 menit • 8 pertanyaan"
   },
   "a11y": {
     "skipToContent": "Langsung ke konten"
@@ -332,9 +329,7 @@
     "cta": "Temukan milikmu!"
   },
   "result": {
-    "moreTests": "Jelajahi lagi",
-    "rarityText": "pelancong berbagi kota yang sama",
-    "rareStat": "{percent}% pelancong berbagi kotamu"
+    "moreTests": "Jelajahi lagi"
   },
   "related": {
     "mbtiCoffee": "Kopi MBTI",
@@ -344,12 +339,5 @@
     "burnoutTest": "Tes Burnout",
     "stressResponse": "Respons Stres",
     "anxietyType": "Tipe Kecemasan"
-  },
-  "about": {
-    "toggle": "Tentang tes ini",
-    "heading1": "Cara kerja tes kota MBTI",
-    "text1": "Tes kota MBTI menganalisis kepribadian Anda melalui 8 pertanyaan skenario perjalanan. Setiap pertanyaan mengevaluasi salah satu dari empat dimensi MBTI. Berdasarkan jawaban Anda, Anda dicocokkan dengan salah satu dari 16 kota dunia.",
-    "heading2": "Mengapa kecocokan kota penting",
-    "text2": "Kota yang cocok mengungkapkan wawasan tentang lingkungan ideal, preferensi sosial, dan gaya hidup Anda."
   }
 }

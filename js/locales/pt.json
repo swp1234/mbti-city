@@ -2,10 +2,7 @@
   "meta": {
     "title": "Teste MBTI de Cidades Grátis - DopaBrain",
     "description": "Qual cidade combina com seu MBTI? Teste grátis com 8 cenários de viagem. Descubra sua cidade!",
-    "participants": "15.200+",
-    "timeEstimate": "~2 min • 8 perguntas",
-    "previewText": "Resultado popular:",
-    "participantsLabel": "participantes"
+    "timeEstimate": "~2 min • 8 perguntas"
   },
   "a11y": {
     "skipToContent": "Pular para o conteudo"
@@ -332,9 +329,7 @@
     "cta": "Descubra a sua!"
   },
   "result": {
-    "moreTests": "Explorar mais",
-    "rarityText": "dos viajantes compartilham sua cidade",
-    "rareStat": "{percent}% dos viajantes compartilham sua cidade"
+    "moreTests": "Explorar mais"
   },
   "related": {
     "mbtiCoffee": "Café MBTI",
@@ -344,12 +339,5 @@
     "burnoutTest": "Teste de Burnout",
     "stressResponse": "Resposta ao Estresse",
     "anxietyType": "Tipo de Ansiedade"
-  },
-  "about": {
-    "toggle": "Sobre o teste",
-    "heading1": "Como funciona o teste de cidades MBTI",
-    "text1": "O teste de cidades MBTI analisa sua personalidade através de 8 perguntas de cenários de viagem. Cada pergunta avalia uma das quatro dimensões do MBTI. Com base nas respostas, você é combinado com uma das 16 cidades do mundo.",
-    "heading2": "Por que sua cidade importa",
-    "text2": "Sua cidade combinada revela insights sobre seu ambiente ideal, preferências sociais e estilo de vida."
   }
 }

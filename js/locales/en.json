@@ -2,23 +2,13 @@
   "meta": {
     "title": "Free MBTI City Match Test Online - DopaBrain",
     "description": "Which city matches your MBTI? Take this free online test with 8 travel scenarios to find your perfect world city match. Try it now!",
-    "participants": "15,200+",
-    "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Popular result:",
-    "participantsLabel": "participants"
+    "timeEstimate": "~2 min • 8 questions"
   },
   "a11y": {
     "skipToContent": "Skip to content"
   },
   "loader": {
     "loading": "Loading..."
-  },
-  "about": {
-    "toggle": "About This Test",
-    "heading1": "How the MBTI City Match Test Works",
-    "text1": "The MBTI City Match Test analyzes your personality through 8 travel scenario questions. Each question evaluates one of the four MBTI dimensions: Extraversion/Introversion, Sensing/Intuition, Thinking/Feeling, and Judging/Perceiving. Based on your answers, you are matched with one of 16 world cities that best reflects your personality traits and travel style.",
-    "heading2": "Why Your City Match Matters",
-    "text2": "Your matched city reveals insights about your ideal environment, social preferences, and lifestyle. Whether you resonate with Tokyo's strategic efficiency, Barcelona's creative spontaneity, or Paris's romantic artistry, your city match can inspire your next travel destination or simply help you understand yourself better."
   },
   "app": {
     "title": "MBTI City Match Test - Find Your Perfect City",
@@ -332,9 +322,7 @@
     "passionate": "Passionate"
   },
   "result": {
-    "moreTests": "Explore More",
-    "rarityText": "of travelers share your city",
-    "rareStat": "{percent}% of travelers share your city"
+    "moreTests": "Explore More"
   },
   "related": {
     "mbtiCoffee": "MBTI Coffee",

@@ -6,6 +6,36 @@
   const scores = { E: 0, I: 0, S: 0, N: 0, T: 0, F: 0, J: 0, P: 0 };
   let currentQuestion = 0;
   const totalQuestions = 8;
+  const mbtiCityStages = new Set();
+  const boundaryCopy = {
+    ko:['재미로 보는 매칭이며 진단이 아닙니다','이 독립 콘텐츠는 공식 MBTI 검사가 아니며 거주지를 결정할 수 없습니다. 여기서 고른 8개 답만 도시 이야기로 바꿉니다.','규칙: E/I, S/N, T/F, J/P 축마다 2문항을 점수화합니다. 높은 쪽으로 네 글자를 만들며 동점은 E, S, T, J 순입니다.','결과의 범위','이 도시는 답변을 위한 창작 라벨이며 심리·이주·여행 조언이 아닙니다.'],
+    en:['Playful match, not a diagnosis','This independent activity is not an official MBTI assessment and cannot determine where you should live. It maps only the eight choices you make here.','Rule: two questions score each E/I, S/N, T/F and J/P axis. The higher side forms the four-letter result; ties use E, S, T and J.','Keep the result in context','This city is a creative label for your answers, not psychological, relocation or travel advice.'],
+    zh:['趣味匹配，不是心理诊断','这是独立制作的娱乐内容，并非官方MBTI测评，也不能决定你该住在哪里。它只把本次8个选择转换成城市故事。','规则：E/I、S/N、T/F、J/P每个维度各有2题。分数较高的一侧组成四字母结果；平分时依次采用E、S、T、J。','正确理解结果','城市只是对本次答案的创意标签，不是心理、移居或旅行建议。'],
+    ja:['遊びのマッチであり診断ではありません','これは独立した娯楽コンテンツで、公式MBTI診断ではなく、住む場所も決められません。今回の8つの選択だけを都市物語に変換します。','ルール：E/I、S/N、T/F、J/Pの各軸を2問で採点。高い側で4文字を作り、同点はE、S、T、Jを使います。','結果の範囲','都市は今回の回答につけた創作ラベルで、心理・移住・旅行の助言ではありません。'],
+    es:['Una coincidencia lúdica, no un diagnóstico','Esta actividad independiente no es una evaluación MBTI oficial ni puede decidir dónde vivir. Solo convierte tus ocho elecciones en una historia urbana.','Regla: dos preguntas puntúan cada eje E/I, S/N, T/F y J/P. Gana el lado mayor; los empates usan E, S, T y J.','Pon el resultado en contexto','La ciudad es una etiqueta creativa para tus respuestas, no un consejo psicológico, de mudanza o de viaje.'],
+    pt:['Uma combinação lúdica, não um diagnóstico','Esta atividade independente não é uma avaliação MBTI oficial e não decide onde você deve morar. Ela transforma apenas suas oito escolhas em uma história de cidade.','Regra: duas perguntas pontuam cada eixo E/I, S/N, T/F e J/P. O lado maior forma o resultado; empates usam E, S, T e J.','Mantenha o resultado em contexto','A cidade é um rótulo criativo para suas respostas, não orientação psicológica, de mudança ou viagem.'],
+    de:['Spielerische Zuordnung, keine Diagnose','Diese unabhängige Aktivität ist kein offizieller MBTI-Test und bestimmt nicht, wo du leben solltest. Sie ordnet nur deine acht Antworten einer Stadtgeschichte zu.','Regel: Je zwei Fragen bewerten E/I, S/N, T/F und J/P. Die höhere Seite bildet das Ergebnis; Gleichstände nutzen E, S, T und J.','Ergebnis richtig einordnen','Die Stadt ist ein kreatives Etikett für deine Antworten, keine psychologische, Umzugs- oder Reiseberatung.'],
+    fr:['Une association ludique, pas un diagnostic','Cette activité indépendante n’est pas un test MBTI officiel et ne peut pas décider où vivre. Elle transforme seulement vos huit choix en récit urbain.','Règle : deux questions notent chaque axe E/I, S/N, T/F et J/P. Le côté le plus élevé gagne ; les égalités utilisent E, S, T et J.','Gardez le résultat en contexte','La ville est une étiquette créative pour vos réponses, pas un conseil psychologique, de déménagement ou de voyage.'],
+    id:['Pencocokan untuk hiburan, bukan diagnosis','Aktivitas independen ini bukan tes MBTI resmi dan tidak menentukan tempat tinggalmu. Aktivitas ini hanya mengubah delapan pilihanmu menjadi cerita kota.','Aturan: dua pertanyaan menilai tiap sumbu E/I, S/N, T/F, dan J/P. Sisi tertinggi membentuk hasil; seri memakai E, S, T, dan J.','Pahami batas hasil','Kota ini hanya label kreatif untuk jawabanmu, bukan saran psikologis, pindah tempat, atau perjalanan.'],
+    tr:['Eğlencelik eşleşme, tanı değil','Bu bağımsız etkinlik resmi bir MBTI değerlendirmesi değildir ve nerede yaşayacağınıza karar veremez. Yalnızca sekiz seçiminizi bir şehir hikâyesine dönüştürür.','Kural: E/I, S/N, T/F ve J/P eksenlerinin her biri iki soruyla puanlanır. Yüksek taraf sonucu oluşturur; eşitlikte E, S, T ve J kullanılır.','Sonucu bağlamında tutun','Şehir, yanıtlarınız için yaratıcı bir etikettir; psikolojik, taşınma veya seyahat tavsiyesi değildir.'],
+    hi:['मनोरंजन के लिए मिलान, निदान नहीं','यह स्वतंत्र गतिविधि आधिकारिक MBTI आकलन नहीं है और यह तय नहीं कर सकती कि आपको कहाँ रहना चाहिए। यह केवल आपके आठ विकल्पों को एक शहर की कहानी में बदलती है।','नियम: E/I, S/N, T/F और J/P के हर अक्ष पर दो प्रश्न अंक देते हैं। ऊँचा पक्ष परिणाम बनाता है; बराबरी में E, S, T और J चुने जाते हैं।','परिणाम की सीमा समझें','यह शहर आपके उत्तरों का रचनात्मक लेबल है, मनोवैज्ञानिक, स्थानांतरण या यात्रा सलाह नहीं।'],
+    ru:['Игровое совпадение, а не диагноз','Это независимое развлечение не является официальным тестом MBTI и не определяет, где вам жить. Оно превращает только восемь ваших ответов в историю города.','Правило: по два вопроса оценивают оси E/I, S/N, T/F и J/P. Побеждает большая сумма; при равенстве используются E, S, T и J.','Учитывайте границы результата','Город — творческая метка ваших ответов, а не психологический совет или рекомендация по переезду и путешествиям.']
+  };
+
+  function trackMbtiCity(name, detail = {}) {
+    if (mbtiCityStages.has(name)) return;
+    mbtiCityStages.add(name);
+    if (typeof gtag === 'function') gtag('event', name, { event_category: 'mbti_city_match', app_language: window.i18n?.currentLang || 'ko', ...detail });
+  }
+
+  function applyBoundaryCopy() {
+    const copy = boundaryCopy[window.i18n?.currentLang] || boundaryCopy.en;
+    const boundary = document.getElementById('truth-boundary');
+    if (boundary) { boundary.querySelector('strong').textContent = copy[0]; boundary.querySelector('p').textContent = copy[1]; }
+    const rule = document.getElementById('score-rule'); if (rule) rule.textContent = copy[2];
+    const title = document.getElementById('result-boundary-title'); if (title) title.textContent = copy[3];
+    const result = document.getElementById('result-boundary-copy'); if (result) result.textContent = copy[4];
+  }
 
   // Questions mapped to MBTI axes
   const questions = [
@@ -63,23 +93,6 @@
     return window.i18n ? window.i18n.t(key, fallback) : (fallback || key);
   }
 
-  // Create city lights particle effect
-  function createParticles() {
-    const container = document.getElementById('particle-container');
-    if (!container) return;
-    for (let i = 0; i < 20; i++) {
-      const light = document.createElement('div');
-      light.className = 'city-light';
-      light.style.left = (5 + Math.random() * 90) + '%';
-      light.style.top = (10 + Math.random() * 80) + '%';
-      light.style.animationDelay = (Math.random() * 5) + 's';
-      light.style.animationDuration = (3 + Math.random() * 4) + 's';
-      light.style.width = (2 + Math.random() * 3) + 'px';
-      light.style.height = light.style.width;
-      container.appendChild(light);
-    }
-  }
-
   // Update skyline buildings (light up as questions answered)
   function updateSkyline() {
     for (let i = 1; i <= currentQuestion; i++) {
@@ -103,6 +116,8 @@
     if (!container) return;
 
     progressText.textContent = `${currentQuestion + 1} / ${totalQuestions}`;
+    const progressBar = document.getElementById('progress-bar');
+    if (progressBar) progressBar.style.width = `${((currentQuestion + 1) / totalQuestions) * 100}%`;
     updateSkyline();
 
     const qText = t(`questions.${q.key}.text`, `Question ${currentQuestion + 1}`);
@@ -172,7 +187,7 @@
   }
 
   // Show result
-  function showResult() {
+  function showResult(isCompletion = true) {
     showScreen('result-screen');
     updateSkyline();
     const mbti = calculateMBTI();
@@ -191,7 +206,6 @@
       <div class="result-mbti">${mbti}</div>
       <div class="result-city-name">${cityName}</div>
       <div class="result-tagline">${cityTagline}</div>
-      <p class="city-rarity" id="city-rarity"></p>
       <div class="card">
         <div class="result-description">${cityDesc}</div>
         <div class="result-traits">
@@ -221,38 +235,19 @@
         </div>
       </div>
 
-      <button id="retry-btn" class="btn btn-secondary">${t('app.retryBtn', 'Try Again')}</button>
+      <button id="retry-btn" class="btn secondary">${t('app.retryBtn', 'Try Again')}</button>
     `;
 
     bindShareButtons(mbti, cityName);
-
-    // City rarity percentage
-    const rarityEl = document.getElementById('city-rarity');
-    if (rarityEl) {
-      const rarities = { INFP: 4.4, ENFP: 8.1, INTJ: 2.1, ENTJ: 1.8, INFJ: 1.5, ENFJ: 2.5, INTP: 3.3, ENTP: 3.2, ISFP: 8.8, ESFP: 8.5, ISTJ: 11.6, ESTJ: 8.7, ISFJ: 13.8, ESFJ: 12.3, ISTP: 5.4, ESTP: 4.3 };
-      const pct = rarities[mbti] || 5;
-      const rareStat = t('result.rareStat', '{percent}% of travelers share your city').replace('{percent}', pct);
-      rarityEl.innerHTML = `🌍 ${rareStat}`;
-    }
-
-    // Show related tests section
-    const relatedTests = document.getElementById('related-tests');
-    if (relatedTests) {
-      relatedTests.style.display = '';
-      if (window.i18n) window.i18n.translateDOM(relatedTests);
-    }
 
     const retryBtn = document.getElementById('retry-btn');
     if (retryBtn) {
       retryBtn.addEventListener('click', resetQuiz);
     }
 
-    if (typeof gtag === 'function') {
-      gtag('event', 'quiz_complete', {
-        event_category: 'mbti_city',
-        event_label: mbti,
-        value: 1
-      });
+    if (isCompletion) {
+      trackMbtiCity('mbti_city_complete');
+      if (typeof GameAds !== 'undefined') GameAds.showInterstitial({ onComplete: () => {} });
     }
   }
 
@@ -273,23 +268,27 @@
       kakaoBtn.addEventListener('click', () => {
         const url = `https://sharer.kakao.com/talk/friends/picker/link?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(fullText)}`;
         window.open(url, '_blank', 'width=600,height=400');
+        trackMbtiCity('mbti_city_share');
       });
     }
     if (twitterBtn) {
       twitterBtn.addEventListener('click', () => {
         const url = `https://twitter.com/intent/tweet?text=${encodeURIComponent(fullText)}&url=${encodeURIComponent(shareUrl)}`;
         window.open(url, '_blank', 'width=600,height=400');
+        trackMbtiCity('mbti_city_share');
       });
     }
     if (facebookBtn) {
       facebookBtn.addEventListener('click', () => {
         const url = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}&quote=${encodeURIComponent(fullText)}`;
         window.open(url, '_blank', 'width=600,height=400');
+        trackMbtiCity('mbti_city_share');
       });
     }
     if (copyBtn) {
       copyBtn.addEventListener('click', () => {
         navigator.clipboard.writeText(shareUrl).then(() => {
+          trackMbtiCity('mbti_city_share');
           const span = copyBtn.querySelector('span');
           if (span) {
             const orig = span.textContent;
@@ -319,58 +318,45 @@
     }
   }
 
-  // Result carousel for start screen
-  function initResultCarousel() {
-    var carousel = document.getElementById('result-carousel');
-    if (!carousel) return;
-    var items = [
-      { mbti: 'INFP', city: t('results.INFP.name', 'Paris'), emoji: '🗼' },
-      { mbti: 'ENTJ', city: t('results.ENTJ.name', 'Singapore'), emoji: '🏙️' },
-      { mbti: 'ENFP', city: t('results.ENFP.name', 'Barcelona'), emoji: '🎨' },
-      { mbti: 'INTJ', city: t('results.INTJ.name', 'Tokyo'), emoji: '🗾' }
-    ];
-    var idx = 0;
-    function showItem() {
-      var item = items[idx];
-      carousel.innerHTML = '<div class="carousel-item">' + item.mbti + ' → ' + item.emoji + ' ' + item.city + '</div>';
-      idx = (idx + 1) % items.length;
-    }
-    showItem();
-    setInterval(showItem, 3000);
-  }
-
   // Init
   function init() {
-    createParticles();
-    setTimeout(initResultCarousel, 500);
-
     const startBtn = document.getElementById('start-btn');
     if (startBtn) {
       startBtn.addEventListener('click', () => {
         showScreen('question-screen');
         renderQuestion();
+        trackMbtiCity('mbti_city_start');
       });
     }
 
     const langSelect = document.getElementById('lang-select');
     if (langSelect && window.i18n) {
       langSelect.value = window.i18n.currentLang || 'ko';
-      langSelect.addEventListener('change', (e) => {
+      langSelect.addEventListener('change', async (e) => {
         if (window.i18n) {
-          window.i18n.switchLang(e.target.value);
+          await window.i18n.switchLang(e.target.value);
+          applyBoundaryCopy();
           if (currentQuestion > 0 && currentQuestion < totalQuestions) {
             renderQuestion();
           }
+          if (document.getElementById('result-screen').classList.contains('active')) showResult(false);
         }
       });
     }
+
+    document.querySelectorAll('[data-target-slug]').forEach(link => link.addEventListener('click', () => trackMbtiCity('mbti_city_related_click', { target_slug: link.dataset.targetSlug })));
 
     // Wait for i18n to be ready before hiding loader
     const startTime = Date.now();
     const waitForI18n = setInterval(() => {
       if ((window.i18n && window.i18n.initialized) || Date.now() - startTime > 2000) {
         clearInterval(waitForI18n);
+        if (langSelect) langSelect.value = window.i18n?.currentLang || 'ko';
+        applyBoundaryCopy();
         hideLoader();
+        trackMbtiCity('mbti_city_view');
+        if (typeof GameAds !== 'undefined') GameAds.init();
+        if ('serviceWorker' in navigator) navigator.serviceWorker.register('/mbti-city/sw.js', { scope: '/mbti-city/' }).catch(() => {});
       }
     }, 50);
   }

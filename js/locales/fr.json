@@ -2,10 +2,7 @@
   "meta": {
     "title": "Test MBTI Ville Gratuit - DopaBrain",
     "description": "Quelle ville correspond à votre MBTI ? Test gratuit avec 8 scénarios de voyage. Essayez maintenant !",
-    "participants": "15 200+",
-    "timeEstimate": "~2 min • 8 questions",
-    "previewText": "Résultat populaire :",
-    "participantsLabel": "participants"
+    "timeEstimate": "~2 min • 8 questions"
   },
   "a11y": {
     "skipToContent": "Aller au contenu"
@@ -332,9 +329,7 @@
     "cta": "Trouvez la vôtre !"
   },
   "result": {
-    "moreTests": "Explorer plus",
-    "rarityText": "des voyageurs partagent votre ville",
-    "rareStat": "{percent}% des voyageurs partagent ta ville"
+    "moreTests": "Explorer plus"
   },
   "related": {
     "mbtiCoffee": "Café MBTI",
@@ -344,12 +339,5 @@
     "burnoutTest": "Test de Burnout",
     "stressResponse": "Réponse au Stress",
     "anxietyType": "Type d'Anxiété"
-  },
-  "about": {
-    "toggle": "À propos du test",
-    "heading1": "Comment fonctionne le test MBTI ville",
-    "text1": "Le test MBTI ville analyse votre personnalité à travers 8 questions de scénarios de voyage. Chaque question évalue une des quatre dimensions du MBTI. Selon vos réponses, vous êtes associé à une des 16 villes du monde.",
-    "heading2": "Pourquoi votre ville compte",
-    "text2": "La ville associée révèle des informations sur votre environnement idéal, vos préférences sociales et votre style de vie."
   }
 }

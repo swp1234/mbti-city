@@ -2,10 +2,7 @@
   "meta": {
     "title": "Ücretsiz MBTI Şehir Testi - DopaBrain",
     "description": "Hangi şehir MBTI tipinizle eşleşiyor? 8 seyahat senaryolu ücretsiz test. Hemen deneyin!",
-    "participants": "15.200+",
-    "timeEstimate": "~2 dk • 8 soru",
-    "previewText": "Popüler sonuç:",
-    "participantsLabel": "katılımcı"
+    "timeEstimate": "~2 dk • 8 soru"
   },
   "a11y": {
     "skipToContent": "İçeriğe geç"
@@ -332,9 +329,7 @@
     "cta": "Kendininkini bul!"
   },
   "result": {
-    "moreTests": "Daha fazla keşfet",
-    "rarityText": "gezgin senin şehrini paylaşıyor",
-    "rareStat": "Gezginlerin {percent}%'i senin şehrini paylaşıyor"
+    "moreTests": "Daha fazla keşfet"
   },
   "related": {
     "mbtiCoffee": "MBTI Kahve",
@@ -344,12 +339,5 @@
     "burnoutTest": "Tükenmişlik Testi",
     "stressResponse": "Stres Tepkisi",
     "anxietyType": "Kaygı Tipi"
-  },
-  "about": {
-    "toggle": "Test hakkında",
-    "heading1": "MBTI şehir eşleştirme testi nasıl çalışır",
-    "text1": "MBTI şehir eşleştirme testi, 8 seyahat senaryosu sorusu ile kişiliğinizi analiz eder. Her soru MBTI'nin dört boyutundan birini değerlendirir. Yanıtlarınıza göre 16 dünya şehrinden biriyle eşleştirilirsiniz.",
-    "heading2": "Şehir eşleşmeniz neden önemli",
-    "text2": "Eşleşen şehir, ideal ortamınız, sosyal tercihleriniz ve yaşam tarzınız hakkında bilgiler ortaya koyar."
   }
 }

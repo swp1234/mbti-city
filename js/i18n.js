@@ -12,9 +12,11 @@
 
       async init() {
         try {
+          const requestedLang = new URLSearchParams(location.search).get('lang');
           const browserLang = (navigator.language || '').slice(0, 2).toLowerCase();
           const saved = localStorage.getItem('preferred-lang');
-          this.currentLang = saved && SUPPORTED_LANGS.includes(saved) ? saved
+          this.currentLang = requestedLang && SUPPORTED_LANGS.includes(requestedLang) ? requestedLang
+            : saved && SUPPORTED_LANGS.includes(saved) ? saved
             : SUPPORTED_LANGS.includes(browserLang) ? browserLang
             : DEFAULT_LANG;
           await this.loadTranslations(this.currentLang);
@@ -72,6 +74,7 @@
         await this.loadTranslations(lang);
         this.applyTranslations();
         document.documentElement.lang = lang;
+        document.dispatchEvent(new CustomEvent('mbticity:language'));
       }
     };
 

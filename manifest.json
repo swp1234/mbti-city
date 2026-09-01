@@ -2,6 +2,7 @@
   "name": "MBTI City Test",
   "short_name": "MBTI City",
   "start_url": "/mbti-city/",
+  "scope": "/mbti-city/",
   "display": "standalone",
   "background_color": "#0a0a1a",
   "theme_color": "#1A535C",
